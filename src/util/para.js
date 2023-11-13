@@ -1,0 +1,2 @@
+export const FLEET =
+  "Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine. We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether its a corporate event or a special occasion. Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication of our luxury ground transportation services.";

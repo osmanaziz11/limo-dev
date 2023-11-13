@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .customer-base-xxlg{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+  }
+
+  .customer-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(217px, 1fr));
+    gap: 10px;
+  }
+
+  .estd-cards-xxlg{
+    display: grid;
+    grid-template-columns: 204px 204px 204px 204px;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+  }
+
+  .estd-cards{
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
