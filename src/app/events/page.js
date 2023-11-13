@@ -128,7 +128,7 @@ function Events() {
   };
 
   return (
-    <div className="relative max-w-[1349px]">
+    <div className="relative max-w-[1349px] min-h-[1500px]">
       <img src={image_urls.events_banner} alt="events-banner" className="" />
 
       {/* the heading row  */}
