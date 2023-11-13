@@ -124,7 +124,7 @@ const Middle = () => {
               and reliability. Our professionally trained drivers are always
               ready to go above and beyond to make your experience with us
               unforgettable. With our 24/7 availability, you can trust that
-              we'll be there whenever you need us.
+              well be there whenever you need us.
             </h1>
           </div>
           <div
@@ -146,7 +146,7 @@ const Middle = () => {
           </div>
 
           <p className="font-libre-baskerville 768:text-[18px] 1024:text-[26px] 1024:px-8  1440:text-[34px] 1440:px-16 p-4 text-center text-[13px] font-normal italic leading-normal text-white 2xl:px-32 2xl:text-[52px]">
-            Whatever your transportation needs may be, we've got you covered.
+            Whatever your transportation needs may be, weve got you covered.
           </p>
 
           <p className="text-shadow-md font-LeagueSpartan 320:pt-1 1024:pt-6 425:text-[36px] 768:text-[65px] 1024:text-[70px] 1440:text-[80px] pt-10 text-right text-[32px] font-bold uppercase leading-tight text-white 2xl:text-[135px]">
@@ -157,14 +157,14 @@ const Middle = () => {
             At Masterpiece Limousine we understand that transportation is more
             than just getting from one place to another, and we strive to
             provide our customers with the highest level of service possible.
-            That's why we carefully select and train our chauffeurs to deliver
+            Thats why we carefully select and train our chauffeurs to deliver
             excellent customer service, reliability, safety, and comfort.
             <br />
             <br />
             Our chauffeurs undergo thorough background checks and rigorous
             training to meet our strict standards. They are knowledgeable about
             the San Diego area and committed to providing a smooth and enjoyable
-            ride. Whether you're traveling to or from the airport, celebrating a
+            ride. Whether youre traveling to or from the airport, celebrating a
             special occasion, or going on a group excursion, our chauffeurs are
             dedicated to making your transportation experience positive.
             <br />

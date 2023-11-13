@@ -17,8 +17,8 @@ const Banner = () => {
             <div className="text-shadow font-Archivo 375:pb-8 375:pt-4 425:px-5 1024:pb-20 1024:px-14 px-3 py-4 text-center text-white 2xl:px-16 2xl:pb-64">
               <p className="1024:text-[15px] text-[5px] font-[300] leading-tight md:text-[12px] lg:text-[20px] 2xl:text-[30px]">
                 At Masterpiece Limousine, we understand that when it comes to
-                transportation, our clients expect nothing but the best. That's
-                why we're dedicated to providing the highest quality services
+                transportation, our clients expect nothing but the best. Thats
+                why were dedicated to providing the highest quality services
                 that prioritize great customer service, reliability, and safety.
               </p>
             </div>
