@@ -1,8 +1,16 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-    images:{
-        
-    }
-}
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+      {
+        protocol: "https",
+        hostname: "s3-alpha-sig.figma.com",
+      },
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

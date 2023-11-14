@@ -10,7 +10,7 @@ function CustomerBase() {
   const images = image_urls.CustomerBase;
   const clients = new Array(14).fill(null);
 
-  const primaryHeading = `text-center xxlg:text-[60px] text-[40px] text-white ${LibreBaskerville}`;
+  const primaryHeading = `text-center xxlg:text-[60px] text-[40px] xs:px-10 text-white ${LibreBaskerville}`;
   const secondaryHeading = `mx-2 text-lg uppercase tracking-[10px] text-[#a9a8a7] ${Montserrat}`;
   
 
@@ -20,7 +20,7 @@ function CustomerBase() {
         <h1 className={primaryHeading}>Our prized customer base</h1>
       </div>
 
-      <div className="p-5 px-10 sm:px-14 lg:px-80 xxlg:customer-base-xxlg customer-base">
+      <div className="p-5 px-10 sm:px-14 lg:px-80 xxlg:customer-base-xxlg xs:customer-base customer-base-xxs">
         {clients.map((_, idx) => {
           return (
             <img

@@ -37,7 +37,7 @@ function Home() {
       </div>
 
       {/* The Estd. Section  */}
-      <div className="relative md:opacity-100 opacity-0 transition-all md:block hidden ">
+      <div className="relative">
         <Estd />
         {/* <Polygons active={15} /> */}
       </div>

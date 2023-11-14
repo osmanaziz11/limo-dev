@@ -8,6 +8,11 @@
     display: none;
   }
 
+  button {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* For newer versions of Chrome and Safari */
+  }
+
   .no-scrollbar {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
@@ -22,7 +27,16 @@
   .customer-base{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(217px, 1fr));
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+  }
+
+  .customer-base-xxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .estd-cards-xxlg{
@@ -32,12 +46,12 @@
     align-items: center;
     gap: 54px;
   }
-
+  
   .estd-cards{
     display: grid;
-    grid-template-columns: 170px 170px 170px 170px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(204px, 1fr));
+  
+    gap: 1px;
   }
+
 }

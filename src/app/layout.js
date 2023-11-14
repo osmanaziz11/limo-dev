@@ -1,5 +1,6 @@
 import { Footer, Navbar } from "@/components/common";
 import "@/style/global.css";
+import NextTopLoader from "nextjs-toploader";
 
 export const metadata = {
   title: "",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <title>Master Limosine</title>
       <body className="h-screen  bg-black">
+        <NextTopLoader showSpinner={false} />
         <Navbar />
         {children}
         <Footer />
