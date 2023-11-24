@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  button {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* For newer versions of Chrome and Safari */
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .customer-base-xxlg{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+  }
+
+  .customer-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(217px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .test{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .customer-base-xxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .estd-cards-xxlg{
+    display: grid;
+    grid-template-columns: 204px 204px 204px 204px;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+  }
+  
+  .estd-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(204px, 1fr));
+  
+    gap: 1px;
+  }
+
+}
