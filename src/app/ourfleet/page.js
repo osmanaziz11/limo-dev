@@ -3,7 +3,7 @@ import Section from "@/components/ourfleet/Section";
 import React from "react";
 
 function OurFleet() {
-  const sections = [
+  const OurFleetSections = [
     {
       order: "left",
       textContent: [
@@ -14,7 +14,9 @@ function OurFleet() {
       ],
       title: "Party Bus",
       imgURL:
-        "https://s3-alpha-sig.figma.com/img/0baf/ec15/c78d0baf41d1fd2e2eec376fbf1e9ab8?Expires=1701043200&Signature=Q1NCmZUKN0ZoHRlayCyOVXyvESV1VbY6CDEgj3pZk5hKDzYq0pJ8mikPIqSkEHMfo7-PmFwbsAKPRzpEkFmo7350xhfsroI55xH7E0uXjGN3f~~NCX-0I-kLwVesB84f23EhNCs4eZ5KdPy8jJQVH-pBaAyA2kYzsVUky3quSTDQ-8iJS5VJqJMiBdfj8gBtu5eRe4gW11NObcplzzhF-S7qWKbJPUHpwEUUed20HQz2vT4kcOh35exAZdtCSuLeH4K2B451WPtdpUBanx7SVe3cZHMWN9-qQdKkwc9IGyd1Lm~VQHmSroWjk2-NVMaSYm6TWGW0Car9YW-Q~VIVJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914654/MSL_pvieyx.png",
+      blurImg:
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_15/v1700914654/MSL_pvieyx.png",
     },
     {
       order: "right",
@@ -26,7 +28,9 @@ function OurFleet() {
       ],
       title: "Party Bus",
       imgURL:
-        "https://s3-alpha-sig.figma.com/img/a5f5/715b/112c32c0ee8227c9279ad4f0ef376b17?Expires=1701043200&Signature=gkZt3PIAYQUbiF461S3KNOUdeuDBt~j1VwTFqKbrN6oiiCK3T-BwH3RvzVJkYNKtsTiutOPui493ZgO~8QS4727XneWyzUIRkOLlDKA50Thv2B0SiAEqEPrDyeFcK6MKTf-c44kYfNpV3vrvEQcwBBp5~gedalQjFRSFe~lk-qv5FysCYfA-dBV42PecD38T8cscI6lSXGDCuHvDO33BZllmBsRwY4FL7fayxJv8yfW6FIrDBnk4~0LHqTMPMlHv0ee~JSX~kkmD5mJZJb84YhYRS-FaEKBtKwJAidDywoaRRmDP3PenaICasY~xHepgeYojAZLDdppEbK5tm5mEtg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914646/MSE_bviwzd.png",
+      blurImg:
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_22/v1700914646/MSE_bviwzd.png",
     },
     {
       order: "left",
@@ -39,7 +43,9 @@ function OurFleet() {
       ],
       title: "STRETCH LIMOUSINE",
       imgURL:
-        "https://s3-alpha-sig.figma.com/img/c298/2351/440d3a776cc66068ce24b0baccdab7ec?Expires=1701043200&Signature=qb9NIsTJx5AtG3TSxFAyIXjDUFchTeT0FenCR~h64LpXJymflH1zctF3w2SQ-tJQ9mFEV0NYFsB4gZKHFCHWutxaAkpBQ~JjabdseKEKsvU5wKknv3oAHVFG3q5lOFi6rftK1jpPMc-ksTzmj~mlUZWyoAqQIhbfr20h~ChMxkrXcNeNiNqWHlv9HQg4FPde6HvD5-pCqlZlIcfykhYvJ8HeVLfn8lcOz~Diy~aNK~Q-baQUstbcc7oAvc6DP0ZI0NVdw3STzYT4-arCBQZtJ4HkhcMQnyCMorg57j8RN1qtp2IuRH9nKne2d8hGscXhQ7BmthscYvzmbCFkDtJHXw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914647/SL_geegjp.png",
+      blurImg:
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_17/v1700914647/SL_geegjp.png",
     },
     {
       order: "right",
@@ -52,7 +58,9 @@ function OurFleet() {
       ],
       title: "STRETCH LIMOUSINE",
       imgURL:
-        "https://s3-alpha-sig.figma.com/img/9939/d74a/85d8fac2dfbabdbc3ca8fdaf4ebc70d4?Expires=1701043200&Signature=XAJ7122Y83N0nfUyif5gh6a96Gwk3K3MoUpIF5-4EiVm~lKcgZTFjT0oulFMrkUsviIEYVtyaydTqoWvVDiMLGMOASh-u4bxA-9cRZSKPZXOE1Iy~fDz3NcMFkyFoq5Zc~B-511vTtXECUclkReHU9EZY2zwGDkuXAKw1Cc9wGLCyAOjTMckOTF3hCu4NzOflt06mAX3FLMY9clQS~d1eOYcp~mgGd~1C~HeNgkWW-RZuyqNuOxLGYq3aycjRd9l-NvNcs1tg1Pk0xB7CGjHSwkabffXhLnq2KPrOJ1X-xuHVr3h1EWiKUH~6pZCHdY~TC1ltRMvgpf6BhypCRsQLw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914648/stretch-lemo_mupfca.png",
+      blurImg:
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1700914648/stretch-lemo_mupfca.png  ",
     },
     {
       order: "left",
@@ -64,7 +72,9 @@ function OurFleet() {
       ],
       title: "SEDAN",
       imgURL:
-        "https://s3-alpha-sig.figma.com/img/6c95/8fa5/eaaf59570b1d05479ad3b23e17f5c177?Expires=1701043200&Signature=n8X7tcEyws0G9bHkMOIutWyAGq1K4BQEQFlRZ-iDiQmF3w860iGg2RNT~hp8jGgmROCObbcqyf~5jILSLgexelfoQ3kKOUIXxHlt0ih0XmMb56w1E0B-KbYLxAvPjS03EzontUQuTqtHQUxAqLEtS3Tklr0DaqgMlz~XnNseq9wOnfnjcI-52MHKG4GkGwkIbbfpEOwtIyxOcH5NUqZzxRIKxvkrLgAR~jihuFu~0QMGDrxerBHYE4sMEt4evsfnXrHsnmXBUnLIPb5cHwEm13s0jTmQ6YKdb0Grsjg76bfAZztK61adAd8vQy~DpSWp~aSQawK4YWucxMzl~zuiwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914645/ES_tq65sb.png",
+      blurImg:
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700914645/ES_tq65sb.png",
     },
     {
       order: "right",
@@ -77,7 +87,9 @@ function OurFleet() {
       ],
       title: "SUV",
       imgURL:
-        "https://s3-alpha-sig.figma.com/img/f3a3/c5e7/211126698f62f6b44b31f29242c9079a?Expires=1701043200&Signature=Fh~a6Kv5HownOIz7gCWLdjsLdZnRxbQX1BQ3ZWpkWc5FWMjyz9gsNreJwWh6JZBYd~pgkODp3hiI8jbghVMLQShnmQNahrPFQ2gg7q42QpzwP~EcJGjqxJVVMQWwFdt8IptVvdUHjl7N83YGKxB6LVbfk0VNIoIyYh-pBmKcuDjcVKwY4GYU92f0tsOh3Zo1tx6dTryTIGcsdCdRWXjSSbqzwX9gt7WoLZEsEDJM7YNHjjPN6uJNC3Ro9GhflAhoSMRAv9U5kMSIbt3zrJviA6sAI5E-myrRbX1aGY5BApikRSkwGbXUzAB5uL80sG5LGbq7fT0JeYVNUmis1v45rg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914655/exec-suv_zkpbw5.png",
+      blurImg:
+        "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_14/v1700914655/exec-suv_zkpbw5.png",
     },
   ];
 
@@ -85,7 +97,7 @@ function OurFleet() {
     <>
       {/* <Navbar /> */}
       <Hero />
-      {sections.map((section, index) => (
+      {OurFleetSections.map((section, index) => (
         <Section
           key={index}
           order={section.order}

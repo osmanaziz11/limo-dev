@@ -55,3 +55,18 @@ export const ServiceBannerURL = {
   banner: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_60/v1700848233/image_6_xnlnzr.png",
   bannerBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700848233/image_6_xnlnzr.png"
 }
+
+export const FleetBannerURL = {
+  banner: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700916363/ourfleet/bannner/fleet-banner_eccy2x.png",
+  bannerBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_16/v1700916363/ourfleet/bannner/fleet-banner_eccy2x.png",
+  linc: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700916364/ourfleet/bannner/lincoln_y6vv3g.png",
+  lincBLur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_29/v1700916364/ourfleet/bannner/lincoln_y6vv3g.png",
+  chev: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700916360/ourfleet/bannner/cad_cumdba.png",
+  chevBLur: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_15/v1700916360/ourfleet/bannner/cad_cumdba.png",
+  ford: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_95/v1700916363/ourfleet/bannner/ford_feoa2r.png",
+  fordBLur: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_16/v1700916363/ourfleet/bannner/ford_feoa2r.png",
+  caddilac: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_96/v1700916360/ourfleet/bannner/cad_cumdba.png",
+  callilacBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_18/v1700916360/ourfleet/bannner/cad_cumdba.png",
+  benz: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_96/v1700916359/ourfleet/bannner/benz_azjkee.png",
+  benzblur: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_18/v1700916359/ourfleet/bannner/benz_azjkee.png",
+}
