@@ -12,7 +12,7 @@ const Banner = () => {
         >
           <Image
             src={AboutUsURLs.banner}
-            alt="fleet-banner"
+            alt="aboutus-banner"
             loading="eager"
             priority={true}
             placeholder="blur"
