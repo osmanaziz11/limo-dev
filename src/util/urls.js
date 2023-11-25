@@ -70,3 +70,20 @@ export const FleetBannerURL = {
   benz: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_96/v1700916359/ourfleet/bannner/benz_azjkee.png",
   benzblur: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_18/v1700916359/ourfleet/bannner/benz_azjkee.png",
 }
+
+export const AboutUsURLs = {
+  banner: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937512/about-us/banner_ponr3m.png",
+  bannerBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_15/v1700937512/about-us/banner_ponr3m.png",
+  first: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937546/about-us/1_we1ars.png",
+  firstBLur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1700937546/about-us/1_we1ars.png",
+  second: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937548/about-us/2_mhrpyn.png",
+  secondBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_19/v1700937548/about-us/2_mhrpyn.png",
+  third: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937548/about-us/3_qnala1.png",
+  thirdBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_15/v1700937548/about-us/3_qnala1.png",
+  head: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937549/about-us/long1_pa5oyj.png",
+  headBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_15/v1700937549/about-us/long1_pa5oyj.png",
+  long: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937550/about-us/long_lqhd9a.png",
+  longBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_14/v1700937550/about-us/long_lqhd9a.png",
+  background: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700937530/about-us/bg_jauqtv.png",
+  backgroundBLur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1700937530/about-us/bg_jauqtv.png",
+}
