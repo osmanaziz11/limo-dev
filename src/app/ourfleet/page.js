@@ -8,7 +8,7 @@ function OurFleet() {
   return (
     <>
       {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Hero />
       {OurFleetSections.map((section, index) => (
         <Section
           key={index}
