@@ -1,13 +1,14 @@
+import React from "react";
 import Hero from "@/components/ourfleet/Hero";
 import Section from "@/components/ourfleet/Section";
-import React from "react";
+import { OurFleetSections } from "@/util/para";
 
 function OurFleet() {
 
   return (
     <>
       {/* <Navbar /> */}
-      <Hero />
+      {/* <Hero /> */}
       {OurFleetSections.map((section, index) => (
         <Section
           key={index}
@@ -15,6 +16,7 @@ function OurFleet() {
           textContent={section.textContent}
           title={section.title}
           imgURL={section.imgURL}
+          blurImg={section.blurImg}
         />
       ))}
     </>
