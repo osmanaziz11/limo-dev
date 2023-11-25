@@ -43,10 +43,15 @@ export const homeURL = {
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700716112/451a8fd373e6ed7c8bec48551c0ac2a5_olnlec.webp",
   serviceMainBannerBlur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700716112/451a8fd373e6ed7c8bec48551c0ac2a5_olnlec.webp",
-  news1:'https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802717/b811cc4bedfdd41fe75026154c795625_v4ouuc.webp',
-  news1Blur:'https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802717/b811cc4bedfdd41fe75026154c795625_v4ouuc.webp',
-  news2:'https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802676/87bc2660707f88dc2b2ede0aeb46a232_c0ds1d.webp',
-  news2Blur:'https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802676/87bc2660707f88dc2b2ede0aeb46a232_c0ds1d.webp',
-  news3:'https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp',
-  news3Blur:'https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp',
+  news1: 'https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802717/b811cc4bedfdd41fe75026154c795625_v4ouuc.webp',
+  news1Blur: 'https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802717/b811cc4bedfdd41fe75026154c795625_v4ouuc.webp',
+  news2: 'https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802676/87bc2660707f88dc2b2ede0aeb46a232_c0ds1d.webp',
+  news2Blur: 'https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802676/87bc2660707f88dc2b2ede0aeb46a232_c0ds1d.webp',
+  news3: 'https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp',
+  news3Blur: 'https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp',
 };
+
+export const ServiceBannerURL = {
+  banner: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_60/v1700848233/image_6_xnlnzr.png",
+  bannerBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700848233/image_6_xnlnzr.png"
+}
