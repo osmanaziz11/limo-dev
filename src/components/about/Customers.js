@@ -1,8 +1,8 @@
 import React from "react";
 import Text from "./Text";
+import Image from "next/legacy/image";
 import { AboutUSCustomertexts } from "@/util/para";
 import { AboutUsURLs } from "@/util/urls";
-import Image from "next/legacy/image";
 
 const Customers = () => {
   return (
@@ -15,7 +15,6 @@ const Customers = () => {
           layout="fill"
           objectFit="cover"
         />
-
         <div className="relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,13 +45,11 @@ const Customers = () => {
             Our prized customer base
           </p>
         </div>
-
         <div className="relative 1440:gap-8 grid grid-cols-1 gap-6 p-6 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 2xl:gap-11 2xl:p-9">
           {AboutUSCustomertexts.map((text, index) => (
             <Text key={index} text={text} />
           ))}
         </div>
-
       </div>
     </>
   );
