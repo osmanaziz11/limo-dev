@@ -1,4 +1,3 @@
-import Image from "next/legacy/image"
 import NavigateList from './footerComponents/NavigateList';
 import ServiceList from './footerComponents/ServiceList';
 import FleetItems from './footerComponents/FleetItems';

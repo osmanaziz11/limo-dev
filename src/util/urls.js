@@ -132,3 +132,8 @@ export const FooterURLs = {
   logo: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1701005143/footer/112_x1hy47.webp",
   logoBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1701005143/footer/112_x1hy47.webp",
 }
+
+export const NavURLs = {
+  logo: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1701009628/footer/nav-logo_hilnxm.webp",
+  logoBlur: "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_19/v1701009628/footer/nav-logo_hilnxm.webp",
+}
