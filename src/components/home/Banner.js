@@ -13,9 +13,8 @@ function Banner() {
       <div
         className={`relative w-full`}
         style={{
-          height: `${
-            window.innerWidth <= 400 ? 280 : (window.innerWidth / 1349) * 756
-          }px`,
+          height: `${window.innerWidth <= 400 ? 280 : (window.innerWidth / 1349) * 756
+            }px`,
         }}
       >
         <Image

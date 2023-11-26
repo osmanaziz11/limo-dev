@@ -1,7 +1,7 @@
 import { AboutUsURLs } from "./urls";
 
 export const FLEET =
-  "Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine. We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether its a corporate event or a special occasion. Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication of our luxury ground transportation services.";
+  `Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine. We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether its a corporate event or a special occasion. Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication of our luxury ground transportation services.`;
 
 export const ServiceContent = {
   graduation: {
@@ -397,4 +397,42 @@ export const AboutUstextSections = [
   },
 ];
 
+export const NavigateListItems = [
+  'Home',
+  'About us',
+  'Specials',
+  'Fleet',
+  'Services',
+  'Reservations'
+];
+
+export const FleetListItems = [
+  'Mercedes Sprinter Limousine',
+  'Mercedes Sprinter Executive',
+  'Executive Sedan',
+  'Luxury Stretch Limousine',
+  'Hummer Stretch Limousine',
+  'Executive SUV',
+];
+
+export const serviceListItems = [
+  'Gold Key Concierge',
+  'Airport Transfers',
+  'Temecula Wine Tours',
+  "Graduation Limo Services",
+  "Sporting Event Transportation",
+  "Prom Night Limousine Services",
+  "Quinceañera Limousine Service",
+  "Mexico Limousine Tours",
+  "SoCal Casino Limo Services",
+  "Del Mar Races Limousine Service",
+  'Tijuana/CBX Airport Services',
+  "Nightclub Limo Service",
+  'San Diego Brewery Tours',
+  "Concert Limo Services",
+  "Bachelor & Bachelorette Parties",
+  "School Even Limo Services",
+  "Executive Ground Transportation",
+  "Wedding Limousine Transportation",
+];
 
