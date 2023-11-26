@@ -21,7 +21,7 @@ function Services() {
         layout="fill"
         objectFit="cover"
         alt="Services"
-        className="-z-10"
+        className="-z-10 xs:blur-0 blur-sm"
         blurDataURL={homeURL.serviceMainBannerBlur}
       />
 

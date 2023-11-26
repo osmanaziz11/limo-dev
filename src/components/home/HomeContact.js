@@ -4,6 +4,9 @@ import NavArrows from "./NavArrows";
 import * as fonts from "@/util/fonts";
 import { Quotes } from "@/assets/icons";
 import { News, image_urls } from "@/util";
+import Image from "next/legacy/image";
+import { homeURL } from "@/util/urls";
+import Polygons from "../common/Polygons";
 
 const TestomonialCard = ({ src, text, name }) => {
   const Montserrat600 = fonts.montserrat600;
@@ -16,13 +19,7 @@ const TestomonialCard = ({ src, text, name }) => {
       style={{ ...style }}
     >
       <div className="relative flex items-end justify-between">
-        <div class="h-16 w-16 overflow-hidden rounded-full transition-all xxlg:h-28 xxlg:w-28">
-          <img
-            src={image_urls.home_banner}
-            alt="Your Avatar"
-            class="h-full w-full object-cover"
-          />
-        </div>
+        <div class="h-16 w-16 overflow-hidden rounded-full bg-white transition-all xxlg:h-28 xxlg:w-32"></div>
 
         <div className="h-[1px] w-[80%] bg-white transition-all xxlg:h-[4px] xxlg:w-[90%]"></div>
         <div className="absolute right-0 mb-3">
@@ -58,16 +55,25 @@ function HomeContact() {
 
   const BackgroundImage = () => {
     return (
-      <img
-        src={image_urls.home_banner_bottom}
+      <Image
+        src={homeURL.lastBanner}
         alt=""
+        layout="fill"
+        objectFit="cover"
         className="grayscale filter"
+        blurDataURL={homeURL.lastBannerBlur}
       />
     );
   };
 
+  const gradient = {
+    backgroundImage: `url(${homeURL.gradient})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+
   return (
-    <div className="relative mb-32">
+    <div className="relative mb-32 h-[1500px] w-full sm:h-[1300px] lg:h-[800px]">
       <BackgroundImage />
       <div className="absolute left-0 top-0 w-full px-2 md:px-10 lg:left-0 xxlg:w-[80%]">
         <div className="flex w-full items-center justify-between lg:pr-52">
@@ -81,34 +87,40 @@ function HomeContact() {
           })}
         </div>
       </div>
-
-      <div className="absolute left-0 top-[450px] h-[320px] w-full whitespace-nowrap xxlg:top-[572px] xxlg:h-[366px]">
+      <Polygons
+          active={20}
+          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-50  flex flex-col`}
+        />
+      <div className="absolute left-0 top-[450px] h-[320px] w-full whitespace-normal  lg:whitespace-nowrap xxlg:top-[702px] xxlg:h-[366px]">
         <div
-          className="relative inline-flex h-full w-[60%] flex-col items-end justify-center whitespace-normal lg:px-10 lg:pr-20"
-          style={{
-            background:
-              "linear-gradient(270deg, #A72211 0%, rgba(141, 73, 73 / 93%) 0%,rgba(33,137,183,0),100%)",
-          }}
+          className="relative top-[500px] inline-flex h-[430px] w-[100%] flex-col  items-end justify-center whitespace-normal px-5 xs:h-[400px] sm:h-[280px] smMd:h-full smMd:pr-20 lg:top-0 lg:w-[60%] lg:px-10"
+          style={gradient}
         >
-          <img
-            src={image_urls.contact_limosine}
-            alt=""
-            srcset=""
-            className="absolute left-0 mt-0 transition-all md:w-[400px] lg:w-[430px] xl:mt-5 xxlg:-mt-3 xxlg:w-[600px]"
-          />
-          <h1
-            className={`text-[30px] text-white xxlg:text-[42px] ${Libre} w-[300px] text-end `}
-          >
-            Require a personalized package?
-          </h1>
-          <p
-            className={`w-[200px] text-end text-sm text-white xxlg:w-[240px] xxlg:text-lg ${Archivo} mt-5`}
-          >
-            Get in touch about your queries and we will get back to you as soon
-            as possible.
-          </p>
+          <div className="absolute bottom-0 left-0 h-[300px]  w-[100%] xs:bottom-10  sm:-top-32  sm:h-[400px] sm:w-[65%]  md:h-[600px] 2xxlg:w-[70%]">
+            <div class="relative h-full w-full">
+              <img
+                src={homeURL.limo}
+                alt=""
+                srcset=""
+                className="absolute left-0 top-16 mt-0 w-[450px] transition-all smMd:w-[500px] lg:mt-5 lg:w-[550px] xl:top-5 xxlg:-mt-3 xxlg:w-[700px]"
+              />
+            </div>
+          </div>
+          <div className="relative -top-[100px] flex flex-col items-end justify-start xxs:-top-[80px] sm:-top-0">
+            <h1
+              className={`text-[30px] text-white xxlg:text-[42px] ${Libre} w-[300px] text-end `}
+            >
+              Require a personalized package?
+            </h1>
+            <p
+              className={`w-[200px] text-end text-sm text-white xxlg:w-[240px] xxlg:text-lg ${Archivo} mt-5`}
+            >
+              Get in touch about your queries and we will get back to you as
+              soon as possible.
+            </p>
+          </div>
         </div>
-        <div className="absolute right-10 inline-flex h-full w-[30%] flex-col justify-between lg:mr-10 lg:pr-10">
+        <div className="absolute right-0 inline-flex h-full w-[100%] flex-col justify-between px-5 sm:px-20 lg:right-10 lg:mr-10 lg:w-[30%] lg:px-1 lg:pr-10">
           <div className="flex">
             <p
               className={`pe-4 uppercase text-white xxlg:text-xl ${Montserrat400}`}

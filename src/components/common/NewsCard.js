@@ -11,7 +11,7 @@ const NewsCard = ({ idx, title, desc, time, width = false }) => {
     <div className={container}>
       <div class="h-[55%] w-full relative">
         <Image
-          src={`${homeURL[`news${idx + 1}`]}`}
+          src={homeURL.news1}
           alt={title}
           layout="fill"
           objectFit="cover"

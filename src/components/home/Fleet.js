@@ -56,7 +56,7 @@ function Fleet() {
         {slider.map((_, idx) => {
           return (
             <div key={idx} class={sliderThumbnail}>
-              <div class="absolute h-full w-full bg-gradient-to-b from-blue-400 via-transparent to-transparent z-50"></div>
+              <div class="absolute h-full w-full bg-gradient-to-b from-blue-400 z-[1] via-transparent to-transparent "></div>
               <Thumbnail idx={idx} {..._} />
             </div>
           );

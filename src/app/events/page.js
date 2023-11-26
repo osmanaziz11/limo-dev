@@ -5,16 +5,17 @@ import {
   montserrat400,
   montserrat600,
 } from "@/util/fonts";
-import { News, image_urls } from "@/util";
+import { News, limitAndConcat } from "@/util";
 import React from "react";
-import { NewsCard } from "@/components/common";
 import { RightArrow, SearchIcon } from "@/assets/icons";
+import { homeURL } from "@/util/urls";
+import Image from "next/legacy/image";
 
 function HeadingRow() {
   const heading = `text-4xl uppercase text-white sm:text-6xl md:text-7xl ${leagueSpartan700}`;
   const para = `text-[15px] text-white sm:mt-2 sm:text-[27px] md:text-[29px] ${libre400}`;
   return (
-    <div class="absolute top-0 flex h-[100%] w-full flex-col items-center justify-center bg-gradient-to-t from-black via-transparent to-transparent md:justify-start md:pt-56">
+    <div class=" top-0 flex sm:h-[400px] h-[250px] w-full flex-col items-center sm:justify-center justify-end sm:mb-0 mb-10  md:justify-start md:pt-56">
       <h1 className={heading}>the latest</h1>
       <p className={para}>Masterpiece Limousines in action.</p>
     </div>
@@ -119,38 +120,67 @@ function AllTime() {
   );
 }
 
-function Events() {
+const NewsCard = ({ idx, title, desc, time, width = false }) => {
+  const container = `xs:mr-5 xs:h-[495px]  flex-col whitespace-normal bg-black  ${
+    width ? "" : ""
+  }`;
+  return (
+    <div className={container}>
+      <div class="relative h-[180px] w-full xs:h-[300px]">
+        <Image
+          src={homeURL.news1}
+          alt={title}
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          className="grayscale filter"
+          blurDataURL={`${homeURL[`news${idx + 1}`]}Blur`}
+        />
+      </div>
+      <div class="flex flex-col border-l-2  border-l-[#A72211]  px-3">
+        <h1 className="py-2 text-center  text-white xxlg:text-[22px]">
+          {title}
+        </h1>
+        <p className="text-start text-sm text-[#a9a8a7] xxlg:text-[17px]">
+          {limitAndConcat(desc, 200, 200)}
+        </p>
+        <p className="mt-2 text-end text-[#a9a8a7]">{time}</p>
+      </div>
+    </div>
+  );
+};
 
+function Events() {
   const newsContainer = {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
-    gap: "10px",
+    gridTemplateColumns: "repeat(auto-fill, minmax(450px, 1fr))",
+    gap: "0px",
   };
 
   return (
-    <div className="relative max-w-[1349px] min-h-[1500px]">
-      <img src={image_urls.events_banner} alt="events-banner" className="" />
-
-      {/* the heading row  */}
+    <div className="relative flex w-full  flex-col  items-center justify-center">
+      <img
+        src="https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700968369/f768d297837638be1b32d563fd928951_k8f1af.webp"
+        alt="events-banner"
+        className="absolute top-0 left-0 w-full -z-10 bg-gradient-to-bottom h-full object-cover blur-sm from-black via-transparent to-transparent"
+      />
       <HeadingRow />
 
-      {/* the content  */}
-      <div
-        className="absolute top-[200px] w-full   lg:px-10 px-5  xxs:top-[300px] sm:top-[400px] grid md:grid-cols-3 sm:grid-cols-2 gap-5"
-       
-      >
+      <div className=" mb-32 flex w-full max-w-[2000px] flex-col   gap-5   px-3 xs:px-10 sm:px-32 smMd:flex-row smMd:px-5">
         {/* left corner  */}
-        <div class="  col-span-1">
+        <div class="  mt-5 smMd:w-1/3 xl:w-1/4">
           <Search />
           <Posts />
           <AllTime />
         </div>
 
         {/* right corner  */}
-        <div class="h-[600px] md:col-span-2 col-span-1" style={{ ...newsContainer }}>
+        <div
+          class=" xs:grid smMd:w-[70%] xl:w-[75%]"
+          style={{ ...newsContainer }}
+        >
           {News.map((_, idx) => {
             return (
-              <div key={idx} className="mb-5">
+              <div key={idx} className="mt-5 xs:mb-5">
                 <NewsCard {..._} />
               </div>
             );
@@ -162,3 +192,27 @@ function Events() {
 }
 
 export default Events;
+
+{
+  /* <div>
+<img
+  src="https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700968369/f768d297837638be1b32d563fd928951_k8f1af.webp"
+  alt="events-banner"
+  className=""
+/>
+
+{/* the heading row  */
+}
+{
+}
+
+{
+  /* the content  */
+}
+{
+  /* <div className="absolute top-[200px] grid w-full gap-5  px-5 xxs:top-[300px] sm:top-[400px] sm:grid-cols-2 md:grid-cols-3 lg:px-10">
+  {/* left corner  */
+}
+
+// </div>
+// </div> */} */}

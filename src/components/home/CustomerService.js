@@ -2,7 +2,13 @@
 import React from "react";
 import { homeURL } from "@/util/urls";
 import ServiceCard from "./ServiceCard";
-import { archivo300, libre400, montserrat400, montserrat500 } from "@/util/fonts";
+import {
+  archivo300,
+  libre400,
+  montserrat400,
+  montserrat500,
+} from "@/util/fonts";
+import Polygons from "../common/Polygons";
 
 function CustomerService() {
   const LibreBaskerville = libre400;
@@ -31,10 +37,14 @@ function CustomerService() {
   ];
   return (
     <>
-      <div className="my-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16">
+      <div className="relative my-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16">
         {services.map((service, idx) => {
           return <ServiceCard key={idx} {...service} />;
         })}
+        <Polygons
+          active={3}
+          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
+        />
       </div>
       <div class=" relative top-[200px] -z-10 w-full smMd:top-[47px] 2lg:-top-[200px]  xl:-top-[280px]  xxlg:-top-[338px]">
         <img
@@ -43,9 +53,9 @@ function CustomerService() {
           srcset=""
           className="h-full w-full object-cover"
         />
-        <div className="absolute xxs:-top-[18rem] -top-[20rem] left-0 w-[90%] xxs:ps-16 px-5 sm:-top-44 smMd:-top-10 smMd:w-[560px] 2lg:top-[40%] xxlg:w-[813px]">
+        <div className="absolute -top-[20rem] left-0 w-[90%] px-5 xxs:-top-[18rem] xxs:ps-16 sm:-top-44 smMd:-top-10 smMd:w-[560px] 2lg:top-[40%] xxlg:w-[813px]">
           <h1
-            className={` xxs:text-[30px] text-[25px] text-white smMd:text-[40px] xxlg:text-[60px] ${LibreBaskerville}`}
+            className={` text-[25px] text-white xxs:text-[30px] smMd:text-[40px] xxlg:text-[60px] ${LibreBaskerville}`}
           >
             Dont settle for anything less than the best!
           </h1>
@@ -60,7 +70,9 @@ function CustomerService() {
             contact us today and book your luxury transportation!
           </p>
           <div className="mt-10 flex w-full items-center justify-center">
-            <button className={`mt- sm:me-5 bg-crimson sm:px-14 px-5 py-3 text-white outline-none text-xs xxlg:px-16 xxlg:py-4 sm:text-base ${montserrat500}`}>
+            <button
+              className={`mt- bg-crimson px-5 py-3 text-xs text-white outline-none sm:me-5 sm:px-14 sm:text-base xxlg:px-16 xxlg:py-4 ${montserrat500}`}
+            >
               RESERVE NOW
             </button>
           </div>

@@ -1,12 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Estd from "@/components/home/Estd";
+
 import Fleet from "@/components/home/Fleet";
 import Services from "@/components/home/Services";
 import { Banner, LatestNews } from "@/components/home";
-import HomeContact from "@/components/home/HomeContact";
+
 import CustomerBase from "@/components/home/CustomerBase";
 import CustomerService from "@/components/home/CustomerService";
+import Estd from "@/components/home/Estd";
+import HomeContact from "@/components/home/HomeContact";
+import Polygons from "@/components/common/Polygons";
 
 function Home() {
   return (
@@ -14,11 +17,18 @@ function Home() {
       {/* Banner Section  */}
       <div className="relative">
         <Banner />
-        {/* <Polygons active={-1} classes={`absolute right-[0.45rem] xl:top-[35%] xs:top-[42%] top-[44%]  flex translate-y-[-19%] flex-col`} /> */}
+        <Polygons
+          active={-1}
+          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
+        />
       </div>
 
       <div class="relative">
         <CustomerService />
+        <Polygons
+          active={6}
+          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
+        />
       </div>
 
       {/* The Fleet Section  */}
@@ -32,24 +42,31 @@ function Home() {
       </div>
 
       {/* The Service Section  */}
-      <div className="">
+      <div className="relative">
         <Services />
+        <Polygons
+          active={10}
+          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-2  flex flex-col`}
+        />
       </div>
 
       {/* The Latest News Section  */}
-      <div class="relative my-32">
+      <div class="relative mt-32">
         <LatestNews />
-        {/* <Polygons active={12} classes="top[20%]"/> */}
+        <Polygons
+          active={13}
+          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-2  flex flex-col`}
+        />
       </div>
 
       {/* The Estd. Section  */}
-      {/* <div className="relative">
+      <div className="relative mb-32">
         <Estd />
-      </div> */}
+      </div>
 
       {/* The Contact Section  */}
-      <div className="hidden opacity-0 transition-all md:block md:opacity-100">
-        {/* <HomeContact/> */}
+      <div className="relative">
+        <HomeContact />
       </div>
     </>
   );
