@@ -9,36 +9,35 @@ const Middle = () => {
   return (
     <>
       <div className="flex flex-col bg-black md:flex-col lg:flex-row">
-        <div className="relative flex w-full flex-col lg:mt-60 lg:w-[35%]">
-          <div className="relative h-[40%] w-full">
+        <div className="relative flex w-full flex-col 320:pt-2 lg:mt-60 lg:w-[32%] 2xl:w-[25%]">
+          {/*  */}
+          <div className="relative 320:h-[450px] 768:h-[660px] 1024:h-[700px] 1440:h-[750px] 2xl:h-[1000px] w-full">
             <Image
               src={AboutUsURLs.head}
               blurDataURL={AboutUsURLs.headBlur}
               alt="Background Image"
               layout="fill"
-              objectFit="cover"
             />
-            <div className="320:top-[20px] 768:top-[10px] 1024:top-[-200px] absolute inset-0 flex flex-col items-center justify-center">
+            <div className="320:top-[20px] 768:top-[10px] 1024:top-[-200px] 2xl:top-[-250px] absolute inset-0 flex flex-col items-center justify-center">
               <StatsBlock count="9000" description="HAPPY CUSTOMERS" />
               <StatsBlock count="12" description="LUXURY LIMOS" />
               <StatsBlock count="900K" description="MILES" />
               <StatsBlock count="30" description="QUALIFIED CHAUFFEURS" />
             </div>
           </div>
-
-          {/* <div className="768:hidden relative hidden w-full items-center justify-center md:h-[60%] lg:block lg:h-full">
+          <div className="768:hidden relative hidden w-full items-center justify-center md:h-[60%] lg:block lg:h-full">
             <Image
               src={AboutUsURLs.long}
               blurDataURL={AboutUsURLs.longBlur}
               alt="Background Image"
               layout="fill"
-              objectFit="cover"
             />
 
-          </div> */}
+          </div>
 
         </div>
-        <div className="relative w-full lg:w-[65%]">
+
+        <div className="relative w-full lg:w-[68%] 2xl:w-[75%]">
 
           {AboutUSTextOnImage.map((section, index) => (
             <ImageTextSection
