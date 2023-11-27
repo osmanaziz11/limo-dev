@@ -10,7 +10,6 @@ const Middle = () => {
     <>
       <div className="flex flex-col bg-black md:flex-col lg:flex-row">
         <div className="relative flex w-full flex-col 320:pt-2 lg:mt-60 lg:w-[32%] 2xl:w-[25%]">
-          {/*  */}
           <div className="relative 320:h-[450px] 768:h-[660px] 1024:h-[700px] 1440:h-[750px] 2xl:h-[1000px] w-full">
             <Image
               src={AboutUsURLs.head}
@@ -32,9 +31,7 @@ const Middle = () => {
               alt="Background Image"
               layout="fill"
             />
-
           </div>
-
         </div>
 
         <div className="relative w-full lg:w-[68%] 2xl:w-[75%]">
