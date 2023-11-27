@@ -1,7 +1,6 @@
 import { AboutUsURLs } from "./urls";
 
-export const FLEET =
-  "Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine. We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether its a corporate event or a special occasion. Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication of our luxury ground transportation services.";
+export const FLEET = `Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine. We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether its a corporate event or a special occasion. Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication of our luxury ground transportation services.`;
 
 export const ServiceContent = {
   graduation: {
@@ -254,17 +253,17 @@ export const OurFleetSections = [
   },
 ];
 
-export const ourFleetBannerText =
-{
+export const ourFleetBannerText = {
   title: "THE FLEET",
-  textContent: "Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine.We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether it's a corporate event or a special occasion.Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication ofour luxury ground transportation services."
-}
+  textContent:
+    "Experience safe and reliable Luxury Ground Transportation with our professional chauffeurs at Masterpiece Limousine.We are fully licensed and insured for your peace of mind, and our fleet of vehicles is perfect for any occasion, whether it's a corporate event or a special occasion.Let us take care of the driving while you sit back, relax, and enjoy the comfort and sophistication ofour luxury ground transportation services.",
+};
 
-export const AboutUsBannerText =
-{
+export const AboutUsBannerText = {
   title: "WHY US?",
-  textContent: "At Masterpiece Limousine, we understand that when it comes to transportation, our clients expect nothing but the best Thats why were dedicated to providing the highest quality services that prioritize great customer service, reliability, and safety."
-}
+  textContent:
+    "At Masterpiece Limousine, we understand that when it comes to transportation, our clients expect nothing but the best Thats why were dedicated to providing the highest quality services that prioritize great customer service, reliability, and safety.",
+};
 
 export const AboutUSCustomertexts = [
   "Evofem Biosciences",
@@ -330,71 +329,55 @@ export const AboutUSTextOnImage = [
   {
     imageUrl: AboutUsURLs.first,
     blurUrl: AboutUsURLs.firstBLur,
-    text:
-      'Our extensive range of luxury vehicles, including traditional limousines and spacious SUV limos, can accommodate groups of any size. From special occasions like weddings and Quinceañeras to corporate events or airport transportation, we have the expertise to provide you with the perfect ride.',
+    text: "Our extensive range of luxury vehicles, including traditional limousines and spacious SUV limos, can accommodate groups of any size. From special occasions like weddings and Quinceañeras to corporate events or airport transportation, we have the expertise to provide you with the perfect ride.",
   },
   {
     imageUrl: AboutUsURLs.second,
     blurUrl: AboutUsURLs.secondBlur,
-    text:
-      "We take pride in our commitment to customer satisfaction, trust, and reliability. Our professionally trained drivers are always ready to go above and beyond to make your experience with us unforgettable. With our 24/7 availability, you can trust that we'll be there whenever you need us.",
+    text: "We take pride in our commitment to customer satisfaction, trust, and reliability. Our professionally trained drivers are always ready to go above and beyond to make your experience with us unforgettable. With our 24/7 availability, you can trust that we'll be there whenever you need us.",
   },
   {
     imageUrl: AboutUsURLs.third,
     blurUrl: AboutUsURLs.thirdBLur,
-    text:
-      "At Masterpiece Limousine, we offer various transportation services, including Temecula wine tours, anniversary celebrations, bachelor and bachelorette parties, and more. ",
+    text: "At Masterpiece Limousine, we offer various transportation services, including Temecula wine tours, anniversary celebrations, bachelor and bachelorette parties, and more. ",
   },
 ];
 
-export const AboutUstextSections = [
-  {
-    style: "font-libre-baskerville 768:text-[18px] 1024:text-[26px] 1024:px-8  1440:text-[34px] 1440:px-16 p-4 text-center text-[13px] font-normal italic leading-normal text-white 2xl:px-32 2xl:text-[52px]",
-    content:
-      "Whatever your transportation needs may be, weve got you covered.",
-  },
-  {
-    style: "text-shadow-md font-LeagueSpartan 320:pt-1 1024:pt-6 425:text-[36px] 768:text-[65px] 1024:text-[70px] 1440:text-[80px] pt-10 text-right text-[32px] font-bold uppercase leading-tight text-white 2xl:text-[135px]",
-    content: "Qualified Chauffeurs",
-  },
-  {
-    style: "font-Archivo 768:text-[10px] 1024:text-[13px] 1024:leading-[20px] 1440:text-[17px] mr-1 pt-5 text-right text-[7px] font-light leading-[14px] text-white 2xl:text-[22px] 2xl:leading-[24px]",
-    content: (
-      <>
-        <p>
-          At Masterpiece Limousine, we understand that transportation is more
-          than just getting from one place to another, and we strive to provide
-          our customers with the highest level of service possible. Thats why we
-          carefully select and train our chauffeurs to deliver excellent customer
-          service, reliability, safety, and comfort.
-        </p>
-        <p>
-          Our chauffeurs undergo thorough background checks and rigorous training
-          to meet our strict standards. They are knowledgeable about the San Diego
-          area and committed to providing a smooth and enjoyable ride. Whether
-          youre traveling to or from the airport, celebrating a special
-          occasion, or going on a group excursion, our chauffeurs are dedicated
-          to making your transportation experience positive.
-        </p>
-        <p>
-          At Masterpiece Limousine, customer satisfaction and safety are our top
-          priorities. We go above and beyond to ensure you have a pleasant and
-          stress-free experience while in our care. Our fleet of luxury vehicles
-          is well-maintained and equipped with the latest technology to ensure
-          your safety and comfort.
-        </p>
-        <p>
-          Experience the difference with Masterpiece Limousine, where luxury meets
-          unparalleled service.
-        </p>
-      </>
-    ),
-  },
-  {
-    style: "font-libre-baskerville 768:pt-12 1024:pt-16 1440:pt-36 768:text-[18px] 1024:text-[28px] 1024:px-10 1440:text-[34px] 1440:px-16 p-4 px-5 pt-10 text-center text-[13px] font-normal italic leading-normal text-white 2xl:px-36 2xl:py-32 2xl:text-[52px]",
-    content:
-      "Contact us today to book your transportation needs and indulge in the ultimate luxury transportation experience.",
-  },
+export const NavigateListItems = [
+  "Home",
+  "About us",
+  "Specials",
+  "Fleet",
+  "Services",
+  "Reservations",
 ];
 
+export const FleetListItems = [
+  "Mercedes Sprinter Limousine",
+  "Mercedes Sprinter Executive",
+  "Executive Sedan",
+  "Luxury Stretch Limousine",
+  "Hummer Stretch Limousine",
+  "Executive SUV",
+];
 
+export const serviceListItems = [
+  "Gold Key Concierge",
+  "Airport Transfers",
+  "Temecula Wine Tours",
+  "Graduation Limo Services",
+  "Sporting Event Transportation",
+  "Prom Night Limousine Services",
+  "Quinceañera Limousine Service",
+  "Mexico Limousine Tours",
+  "SoCal Casino Limo Services",
+  "Del Mar Races Limousine Service",
+  "Tijuana/CBX Airport Services",
+  "Nightclub Limo Service",
+  "San Diego Brewery Tours",
+  "Concert Limo Services",
+  "Bachelor & Bachelorette Parties",
+  "School Even Limo Services",
+  "Executive Ground Transportation",
+  "Wedding Limousine Transportation",
+];

@@ -6,6 +6,8 @@ import { useState } from "react";
 import * as fonts from "@/util/fonts";
 import { usePathname } from "next/navigation";
 import { Rotate as Hamburger } from "hamburger-react";
+import { NavURLs } from "@/util/urls";
+import Image from "next/legacy/image";
 
 const NavLink = ({ name, href, horizontal, handler }) => {
   const activeRoute = usePathname();
@@ -13,11 +15,9 @@ const NavLink = ({ name, href, horizontal, handler }) => {
   return (
     <li
       key={name}
-      className={`mx-5 ${
-        !horizontal && "my-3"
-      }  cursor-pointer border-b-2  pb-2 text-white  transition-all  hover:border-active_navbar  ${
-        isActive ? "border-active_navbar" : "border-[transparent]"
-      }`}
+      className={`mx-5 ${!horizontal && "my-3"
+        }  cursor-pointer border-b-2  pb-2 text-white  transition-all  hover:border-active_navbar  ${isActive ? "border-active_navbar" : "border-[transparent]"
+        }`}
     >
       <Link href={href}>
         <h6
@@ -39,7 +39,7 @@ function NavLinks({ horizontal = true, handler }) {
     { name: "EVENTS", href: "/events" },
     { name: "OUR FLEET", href: "/ourfleet" },
     { name: "ABOUT US", href: "/about" },
-    { name: "CONTACT US", href: "/" },
+    { name: "CONTACT US", href: "/." },
   ];
 
   const containerClasses = horizontal
@@ -74,12 +74,13 @@ export default function Navbar() {
 
   return (
     <div className="absolute z-10 flex w-full items-center justify-between px-2 py-3 xxs:px-4 sm:px-5 sm:py-5 md:py-7 xxlg:px-7 ">
-     <SideMenu />
-      <div className="">
-        <img
-          src="/images/Logo.png"
+      <SideMenu />
+      <div className="relative w-[128px] h-[61px] xxs:w-40 sm:w-44 xxlg:w-64">
+        <Image
+          src={NavURLs.logo}
+          blurDataURL={NavURLs.logoBlur}
+          layout="fill"
           alt="Logo"
-          className="w-[128px] xxs:w-40 sm:w-44 xxlg:w-64"
         />
       </div>
       <div className="flex w-auto justify-end lg:w-[70%] xxlg:w-[75%]">
