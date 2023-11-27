@@ -364,7 +364,7 @@ export const AboutUstextSections = [
         <p>
           At Masterpiece Limousine, we understand that transportation is more
           than just getting from one place to another, and we strive to provide
-          our customers with the highest level of service possible. That's why we
+          our customers with the highest level of service possible. Thats why we
           carefully select and train our chauffeurs to deliver excellent customer
           service, reliability, safety, and comfort.
         </p>
@@ -372,7 +372,7 @@ export const AboutUstextSections = [
           Our chauffeurs undergo thorough background checks and rigorous training
           to meet our strict standards. They are knowledgeable about the San Diego
           area and committed to providing a smooth and enjoyable ride. Whether
-          you're traveling to or from the airport, celebrating a special
+          youre traveling to or from the airport, celebrating a special
           occasion, or going on a group excursion, our chauffeurs are dedicated
           to making your transportation experience positive.
         </p>
