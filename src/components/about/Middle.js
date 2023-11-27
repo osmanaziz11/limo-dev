@@ -50,7 +50,7 @@ const Middle = () => {
           ))}
 
           <p className="text-white text-center font-libre-baskerville italic font-normal leading-normal text-[13px] 768:text-[18px] p-4 1024:text-[26px] 1024:px-8 1440:text-[34px] 1440:px-16 2xl:text-[52px] 2xl:px-32">
-            Whatever your transportation needs may be, we've got you covered.
+            Whatever your transportation needs may be, weve got you covered.
           </p>
 
           <p className="text-white text-right text-shadow-md font-LeagueSpartan font-bold leading-tight uppercase pt-10 320:pt-1 1024:pt-6 text-[32px] 425:text-[36px] 768:text-[65px] 1024:text-[70px] 1440:text-[80px] 2xl:text-[135px]">
@@ -59,10 +59,10 @@ const Middle = () => {
           </p>
 
           <p className="pt-5 text-white text-right font-Archivo mr-1 text-[7px] 768:text-[10px] 1024:text-[13px] 1024:leading-[20px] 1440:text-[17px] 2xl:text-[22px] 2xl:leading-[24px] font-light leading-[14px]">
-            At Masterpiece Limousine we understand that transportation is more than just getting from one place to another, and we strive to provide our customers with the highest level of service possible. That's why we carefully select and train our chauffeurs to deliver excellent customer service, reliability, safety, and comfort.
+            At Masterpiece Limousine we understand that transportation is more than just getting from one place to another, and we strive to provide our customers with the highest level of service possible. Thats why we carefully select and train our chauffeurs to deliver excellent customer service, reliability, safety, and comfort.
             <br />
             <br />
-            Our chauffeurs undergo thorough background checks and rigorous training to meet our strict standards. They are knowledgeable about the San Diego area and committed to providing a smooth and enjoyable ride. Whether you're traveling to or from the airport, celebrating a special occasion, or going on a group excursion, our chauffeurs are dedicated to making your transportation experience positive.
+            Our chauffeurs undergo thorough background checks and rigorous training to meet our strict standards. They are knowledgeable about the San Diego area and committed to providing a smooth and enjoyable ride. Whether youre traveling to or from the airport, celebrating a special occasion, or going on a group excursion, our chauffeurs are dedicated to making your transportation experience positive.
             <br />
             <br />
             At Masterpiece Limousine, customer satisfaction and safety are our top priorities. We go above and beyond to ensure you have a pleasant and stress-free experience while in our care. Our fleet of luxury vehicles is well-maintained and equipped with the latest technology to ensure your safety and comfort.

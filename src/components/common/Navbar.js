@@ -15,9 +15,11 @@ const NavLink = ({ name, href, horizontal, handler }) => {
   return (
     <li
       key={name}
-      className={`mx-5 ${!horizontal && "my-3"
-        }  cursor-pointer border-b-2  pb-2 text-white  transition-all  hover:border-active_navbar  ${isActive ? "border-active_navbar" : "border-[transparent]"
-        }`}
+      className={`mx-5 ${
+        !horizontal && "my-3"
+      }  cursor-pointer border-b-2  pb-2 text-white  transition-all  hover:border-active_navbar  ${
+        isActive ? "border-active_navbar" : "border-[transparent]"
+      }`}
     >
       <Link href={href}>
         <h6
@@ -66,7 +68,11 @@ export default function Navbar() {
 
   function SideMenu() {
     return (
-      <div className={`fixed left-0 top-0 z-[10] h-screen w-screen bg-black transition-all ${menu ? 'opacity-95 visible' : 'opacity-0 hidden'}`}>
+      <div
+        className={`fixed left-0 top-0 z-[10] h-screen w-screen bg-black transition-all ${
+          menu ? "visible opacity-95" : "hidden opacity-0"
+        }`}
+      >
         <NavLinks horizontal={false} handler={setMenu} />
       </div>
     );
@@ -75,12 +81,11 @@ export default function Navbar() {
   return (
     <div className="absolute z-10 flex w-full items-center justify-between px-2 py-3 xxs:px-4 sm:px-5 sm:py-5 md:py-7 xxlg:px-7 ">
       <SideMenu />
-      <div className="relative w-[128px] h-[61px] xxs:w-40 sm:w-44 xxlg:w-64">
-        <Image
+      <div className="">
+        <img
           src={NavURLs.logo}
-          blurDataURL={NavURLs.logoBlur}
-          layout="fill"
           alt="Logo"
+          className="w-[128px] xxs:w-40 sm:w-44 xxlg:w-64"
         />
       </div>
       <div className="flex w-auto justify-end lg:w-[70%] xxlg:w-[75%]">

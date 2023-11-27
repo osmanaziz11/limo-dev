@@ -13,7 +13,7 @@ function ServiceCard({ topText, src, bottomText, blurSrc }) {
       </p>
       <div class="relative h-[359px] xxlg:h-[575px]">
         <Image
-          src={src}
+          src={blurSrc}
           alt={topText}
           blurDataURL={blurSrc}
           loading="lazy"
