@@ -4,7 +4,7 @@ import { montserrat500 } from "@/util/fonts";
 export default function ServiceCardMobile({ title, icon, para }) {
   const Icon = icons[icon];
   return (
-    <div class="mx-2 my-2 flex h-[240px] flex-col items-center justify-between bg-[#383B4280] px-5 py-5 text-white">
+    <div class="mx-2 my-2 flex h-[240px] flex-col items-center justify-between bg-[#383B4280] px-5 py-5 text-white" data-aos="zoom-out">
       <p
         className={`text-base xxs:text-xs xs:text-sm  ${montserrat500} uppercase`}
       >

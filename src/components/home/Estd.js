@@ -8,7 +8,7 @@ import Polygons from "../common/Polygons";
 
 function BlackCard({ number, text }) {
   return (
-    <div className="mx-2 mb-5 flex h-[200px] w-[170px] flex-grow flex-col  justify-between bg-black py-10 xxlg:h-[283px] xxlg:w-[242px]">
+    <div className="mx-2 mb-5 flex h-[200px] w-[170px] flex-grow flex-col  justify-between bg-black py-10 xxlg:h-[283px] xxlg:w-[242px]" data-aos="zoom-in-up">
       <h1
         className={`text-center text-5xl xxlg:text-7xl ${leagueSpartan700} text-white`}
       >
@@ -52,7 +52,7 @@ function Estd() {
         </div>
 
         {/* Row  */}
-        <div className="mb-32 mt-5 w-[98%] smMd:mb-64 smMd:w-[730px] xxlg:w-[1010px]">
+        <div className="mb-32 mt-5 w-[98%] smMd:mb-64 smMd:w-[730px] xxlg:w-[1010px]" data-aos="zoom-in-up">
           <h1
             className={`w-full bg-black p-4 text-center uppercase tracking-[10px] text-white opacity-[0.9] shadow-md xxlg:p-8 xxlg:text-2xl ${montserrat400}`}
           >

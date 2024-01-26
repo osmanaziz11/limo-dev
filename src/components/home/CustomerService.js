@@ -2,13 +2,8 @@
 import React from "react";
 import { homeURL } from "@/util/urls";
 import ServiceCard from "./ServiceCard";
-import {
-  archivo300,
-  libre400,
-  montserrat400,
-  montserrat500,
-} from "@/util/fonts";
 import Polygons from "../common/Polygons";
+import { archivo300, libre400, montserrat500 } from "@/util/fonts";
 
 function CustomerService() {
   const LibreBaskerville = libre400;
@@ -53,7 +48,7 @@ function CustomerService() {
           srcset=""
           className="h-full w-full object-cover"
         />
-        <div className="absolute -top-[20rem] left-0 w-[90%] px-5 xxs:-top-[18rem] xxs:ps-16 sm:-top-44 smMd:-top-10 smMd:w-[560px] 2lg:top-[40%] xxlg:w-[813px]">
+        <div className="absolute -top-[20rem] left-0 w-[90%] px-5 xxs:-top-[18rem] xxs:ps-16 sm:-top-44 smMd:-top-10 smMd:w-[560px] 2lg:top-[40%] xxlg:w-[813px]" data-aos="fade-up">
           <h1
             className={` text-[25px] text-white xxs:text-[30px] smMd:text-[40px] xxlg:text-[60px] ${LibreBaskerville}`}
           >

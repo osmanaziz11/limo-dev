@@ -17,7 +17,7 @@ const TestomonialCard = ({ src, text, name }) => {
     <div
       className="bg mr-3 inline-block h-[250px] w-[300px] flex-col whitespace-normal p-3 transition-all xxlg:h-[370px] xxlg:w-[448px]"
       style={{ ...style }}
-    >
+      data-aos="zoom-in-up">
       <div className="relative flex items-end justify-between">
         <div class="h-16 w-16 overflow-hidden rounded-full bg-white transition-all xxlg:h-28 xxlg:w-32"></div>
 
@@ -73,7 +73,7 @@ function HomeContact() {
   };
 
   return (
-    <div className="relative mb-32 h-[1500px] w-full sm:h-[1300px] lg:h-[800px]">
+    <div className="relative mb-32 h-[1500px] w-full sm:h-[1300px] xxlg:h-[1200px] lg:h-[800px]">
       <BackgroundImage />
       <div className="absolute left-0 top-0 w-full px-2 md:px-10 lg:left-0 xxlg:w-[80%]">
         <div className="flex w-full items-center justify-between lg:pr-52">
@@ -97,7 +97,7 @@ function HomeContact() {
           style={gradient}
         >
           <div className="absolute bottom-0 left-0 h-[300px]  w-[100%] xs:bottom-10  sm:-top-32  sm:h-[400px] sm:w-[65%]  md:h-[600px] 2xxlg:w-[70%]">
-            <div class="relative h-full w-full">
+            <div class="relative h-full w-full" data-aos="fade-right">
               <img
                 src={homeURL.limo}
                 alt=""

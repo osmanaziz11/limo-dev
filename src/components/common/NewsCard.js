@@ -8,7 +8,7 @@ const NewsCard = ({ idx, title, desc, time, width = false }) => {
     width ? "xxlg:w-[450px] w-[330px]" : ""
   }`;
   return (
-    <div className={container}>
+    <div className={container} data-aos="zoom-in">
       <div class="h-[55%] w-full relative">
         <Image
           src={`${homeURL[`news${idx + 1}`]}`}

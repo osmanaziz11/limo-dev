@@ -16,11 +16,11 @@ function CustomerBase() {
 
   return (
     <div>
-      <div className="mb-10">
+      <div className="mb-10" data-aos="fade-up">
         <h1 className={primaryHeading}>Our prized customer base</h1>
       </div>
 
-      <div className="p-5 px-10 sm:px-14 lg:px-80 xxlg:customer-base-xxlg xs:customer-base customer-base-xxs">
+      <div className="p-5 px-10 sm:px-14 lg:px-80 xxlg:customer-base-xxlg xs:customer-base customer-base-xxs" >
         {clients.map((_, idx) => {
           return (
             <img
@@ -28,7 +28,7 @@ function CustomerBase() {
               src={images[`Logo${idx + 1}`]}
               alt=""
               className="xxlg:h-auto h-[120px]"
-            />
+              data-aos="zoom-in"/>
           );
         })}
       </div>

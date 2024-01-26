@@ -4,7 +4,7 @@ import { montserrat500 } from "@/util/fonts";
 export default function ServiceCardWeb({ title, icon, para }) {
   const Icon = icons[icon];
   return (
-    <div class="my-2 flex flex-col items-center justify-between bg-[#383B4233] px-5 py-5 text-white md:h-[140px] md:w-[120px] slg:h-[200px] slg:w-[180px] xl:h-[230px] xl:w-[200px] xxlg:h-[270px] xxlg:w-[260px]">
+    <div class="my-2 flex flex-col items-center justify-between bg-[#383B4233] px-5 py-5 text-white md:h-[140px] md:w-[120px] slg:h-[200px] slg:w-[180px] xl:h-[230px] xl:w-[200px] xxlg:h-[270px] xxlg:w-[260px]" data-aos="zoom-in">
       <p
         className={`text-[10px] xl:text-[14px] xxlg:text-lg ${montserrat500} uppercase`}
       >

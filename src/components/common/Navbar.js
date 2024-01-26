@@ -41,7 +41,7 @@ function NavLinks({ horizontal = true, handler }) {
     { name: "EVENTS", href: "/events" },
     { name: "OUR FLEET", href: "/ourfleet" },
     { name: "ABOUT US", href: "/about" },
-    { name: "CONTACT US", href: "/." },
+    { name: "CONTACT US", href: "/contact" },
   ];
 
   const containerClasses = horizontal

@@ -3,7 +3,7 @@ import React from "react";
 
 function BannerContent() {
   return (
-    <div className="absolute  right-[4.5%] top-[67%] z-[3] flex  translate-x-[-4.5%] translate-y-[-60%] flex-col items-end xs:top-[62%] xl:top-[57%] xl:translate-y-[-59%]  xxlg:top-[57.4%]">
+    <div className="absolute  right-[4.5%] top-[67%] z-[3] flex  translate-x-[-4.5%] translate-y-[-60%] flex-col items-end xs:top-[62%] xl:top-[57%] xl:translate-y-[-59%]  xxlg:top-[57.4%]" >
       <h1
         className={`text-right text-[33px] uppercase leading-[0] text-white drop-shadow-md xs:text-[35px] sm:text-[50px] smMd:text-[65px] 2lg:text-[90px] 2xxlg:text-[110px] 3xxlg:text-[130px]  ${leagueSpartan700}`}
       >

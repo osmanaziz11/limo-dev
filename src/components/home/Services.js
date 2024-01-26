@@ -26,7 +26,7 @@ function Services() {
       />
 
       {/* content  */}
-      <div class="absolute left-0 top-0  flex flex-col items-center justify-center px-5 py-10 xs:p-10 xs:px-20 slg:items-start">
+      <div class="absolute left-0 top-0  flex flex-col items-center justify-center px-5 py-10 xs:p-10 xs:px-20 slg:items-start" data-aos="fade-right">
         <h1 className={heading}>Our Services</h1>
         <p className={para}>
           Masterpiece Limousine provides luxury, affordable limo services in San

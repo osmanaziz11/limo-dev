@@ -8,16 +8,7 @@ function Services() {
     <>
       <Hero />
       {ServicesSectionsData.map((section, index) => (
-        <Section
-          key={index}
-          order={section.order}
-          textContent={section.textContent}
-          title={section.heading}
-          imgURL={section.imgURL}
-          color={section.color}
-          number={section.number}
-          img={section.img}
-        />
+        <Section key={index} {...section} />
       ))}
     </>
   );
