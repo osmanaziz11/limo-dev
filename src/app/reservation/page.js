@@ -14,8 +14,8 @@ function Reservation() {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
-    <div className="w-full  relative flex justify-center items-center">
-      <div className="  w-full max-w-[1796px]    pt-52 sm:px-10 md:px-16 xl:px-52 px-5 sm:mb-0 mb-32">
+    <div className="relative  flex w-full items-center justify-center">
+      <div className="  mb-32 w-full    max-w-[1796px] px-5 pt-52 sm:mb-0 sm:px-10 md:px-16 xl:px-52">
         <BackgroundBanner />
 
         <ButtonsRow />

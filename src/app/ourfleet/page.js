@@ -4,7 +4,6 @@ import Section from "@/components/ourfleet/Section";
 import { OurFleetSections } from "@/util/para";
 
 function OurFleet() {
-
   return (
     <>
       {/* <Navbar /> */}

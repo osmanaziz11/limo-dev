@@ -15,7 +15,6 @@ function Banner() {
     }
   }, []);
 
-  
   return (
     <div className="relative h-[280px] transition-all xxs:h-auto">
       <div className="absolute right-0 z-[2] h-full w-[246px] bg-gradient-to-l from-black to-transparent shadow-md sm:w-[45%]"></div>

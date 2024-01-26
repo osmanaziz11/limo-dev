@@ -17,7 +17,8 @@ const TestomonialCard = ({ src, text, name }) => {
     <div
       className="bg mr-3 inline-block h-[250px] w-[300px] flex-col whitespace-normal p-3 transition-all xxlg:h-[370px] xxlg:w-[448px]"
       style={{ ...style }}
-      data-aos="zoom-in-up">
+      data-aos="zoom-in-up"
+    >
       <div className="relative flex items-end justify-between">
         <div class="h-16 w-16 overflow-hidden rounded-full bg-white transition-all xxlg:h-28 xxlg:w-32"></div>
 
@@ -73,7 +74,7 @@ function HomeContact() {
   };
 
   return (
-    <div className="relative mb-32 h-[1500px] w-full sm:h-[1300px] xxlg:h-[1200px] lg:h-[800px]">
+    <div className="relative mb-32 h-[1500px] w-full sm:h-[1300px] lg:h-[800px] xxlg:h-[1200px]">
       <BackgroundImage />
       <div className="absolute left-0 top-0 w-full px-2 md:px-10 lg:left-0 xxlg:w-[80%]">
         <div className="flex w-full items-center justify-between lg:pr-52">
@@ -88,9 +89,9 @@ function HomeContact() {
         </div>
       </div>
       <Polygons
-          active={20}
-          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-50  flex flex-col`}
-        />
+        active={20}
+        classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-50  flex flex-col`}
+      />
       <div className="absolute left-0 top-[450px] h-[320px] w-full whitespace-normal  lg:whitespace-nowrap xxlg:top-[702px] xxlg:h-[366px]">
         <div
           className="relative top-[500px] inline-flex h-[430px] w-[100%] flex-col  items-end justify-center whitespace-normal px-5 xs:h-[400px] sm:h-[280px] smMd:h-full smMd:pr-20 lg:top-0 lg:w-[60%] lg:px-10"

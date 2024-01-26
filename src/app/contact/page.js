@@ -72,7 +72,7 @@ function Contact() {
                 </h6>
               </div>
             </div>
-            <div class="mx-auto lg:px-36 md:px-14 px-0">
+            <div class="mx-auto px-0 md:px-14 lg:px-36">
               <form>
                 <div class="relative mb-6 flex flex-col">
                   <label class="mb-2 text-white" for="exampleInput90">
@@ -81,77 +81,83 @@ function Contact() {
 
                   <input
                     type="text"
-                    class="bg-transparent border border-1 border-zinc-500 p-3 rounded"
+                    class="border-1 rounded border border-zinc-500 bg-transparent p-3"
                     id="exampleInput90"
                     placeholder="Topic"
                   />
                 </div>
-                <div class="relative mb-6 flex xs:flex-row flex-col justify-between">
-                  <div className="flex flex-col xs:w-[48%] xs:mb-0 mb-3">
+                <div class="relative mb-6 flex flex-col justify-between xs:flex-row">
+                  <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
                     <label class="mb-2 text-white" for="exampleInput90">
                       First Name *
                     </label>
 
                     <input
                       type="text"
-                      class="w-full bg-transparent border border-1 border-zinc-500 p-3 rounded"
+                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
                       id="exampleInput90"
                       placeholder="First Name"
                     />
                   </div>
-                  <div className="flex flex-col xs:w-[48%] xs:mb-0 mb-3">
+                  <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
                     <label class="mb-2 text-white" for="exampleInput90">
                       Last Name *
                     </label>
 
                     <input
                       type="text"
-                      class="w-full bg-transparent border border-1 border-zinc-500 p-3 rounded"
+                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
                       id="exampleInput90"
                       placeholder="Last Name"
                     />
                   </div>
                 </div>
-                <div class="relative mb-6 flex xs:flex-row flex-col justify-between">
-                  <div className="flex flex-col xs:w-[48%] xs:mb-0 mb-3">
+                <div class="relative mb-6 flex flex-col justify-between xs:flex-row">
+                  <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
                     <label class="mb-2 text-white" for="exampleInput90">
                       Phone *
                     </label>
 
                     <input
                       type="text"
-                      class="w-full bg-transparent border border-1 border-zinc-500 p-3 rounded"
+                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
                       id="exampleInput90"
                       placeholder="Phone number"
                     />
                   </div>
-                  <div className="flex flex-col xs:w-[48%] xs:mb-0 mb-3">
+                  <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
                     <label class="mb-2 text-white" for="exampleInput90">
                       Email *
                     </label>
 
                     <input
                       type="text"
-                      class="w-full bg-transparent border border-1 border-zinc-500 p-3 rounded"
+                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
                       id="exampleInput90"
                       placeholder="Email"
                     />
                   </div>
                 </div>
                 <div class="relative mb-6 flex">
-                  <div className="flex flex-col w-full">
-                    <label class="mb-2 text-white w-full" for="exampleInput90">
+                  <div className="flex w-full flex-col">
+                    <label class="mb-2 w-full text-white" for="exampleInput90">
                       Message
                     </label>
 
-                   <textarea name="" id="" cols="30" rows="10" className="bg-transparent border border-1 border-zinc-500 p-3 rounded"></textarea>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      className="border-1 rounded border border-zinc-500 bg-transparent p-3"
+                    ></textarea>
                   </div>
                 </div>
                 <button
                   type="button"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="bg-blue-600 mt-10 hover:bg-primary-600 focus:bg-primary-600 active:bg-primary-700 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0"
+                  class="hover:bg-primary-600 focus:bg-primary-600 active:bg-primary-700 mt-10 inline-block w-full rounded bg-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0"
                 >
                   Send
                 </button>

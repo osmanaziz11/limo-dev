@@ -63,7 +63,7 @@ export const servicesBannerData = [
 
 export const ServicesSectionsData = [
   {
-    aos:"zoom-in",
+    aos: "zoom-in",
     number: "01",
     heading: "Gold Key Concierge",
     order: "right",
@@ -83,7 +83,7 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos:"zoom-in",
+    aos: "zoom-in",
     number: "02",
     heading: "Airport Transfers",
     order: "left",
@@ -104,7 +104,7 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos:"zoom-in",
+    aos: "zoom-in",
     number: "03",
     heading: "Executive Ground Transportation",
     order: "right",
@@ -123,7 +123,8 @@ export const ServicesSectionsData = [
     SImgBlur:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
-  {aos:"zoom-in",
+  {
+    aos: "zoom-in",
     number: "04",
     heading: "Tijuana/CBX Airport Services",
     order: "left",
@@ -144,7 +145,7 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos:"zoom-in",
+    aos: "zoom-in",
     number: "17",
     heading: "Gold Key Concierge",
     order: "right",

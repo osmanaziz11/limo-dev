@@ -3,7 +3,10 @@ import Image from "next/legacy/image";
 
 function ServiceCard({ topText, src, bottomText, blurSrc }) {
   return (
-    <div className="relative mb-24 flex w-[239px] flex-col whitespace-normal sm:mb-1 sm:me-2 sm:inline-flex  sm:w-[33%] smMd:w-60 xxlg:w-[378px]" data-aos="fade-up">
+    <div
+      className="relative mb-24 flex w-[239px] flex-col whitespace-normal sm:mb-1 sm:me-2 sm:inline-flex  sm:w-[33%] smMd:w-60 xxlg:w-[378px]"
+      data-aos="fade-up"
+    >
       <div class="absolute bottom-0 z-[2] h-[30%] w-full bg-gradient-to-t from-black to-transparent shadow-2xl"></div>
       <div class="absolute top-[16%]   z-[1] h-[30%] w-full bg-gradient-to-b from-blue-400 via-transparent to-transparent xxlg:top-[13%]"></div>
       <p

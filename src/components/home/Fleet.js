@@ -56,7 +56,7 @@ function Fleet() {
         {slider.map((_, idx) => {
           return (
             <div key={idx} class={sliderThumbnail}>
-              <div class="absolute h-full w-full bg-gradient-to-b from-blue-400 z-[1] via-transparent to-transparent "></div>
+              <div class="absolute z-[1] h-full w-full bg-gradient-to-b from-blue-400 via-transparent to-transparent "></div>
               <Thumbnail idx={idx} {..._} />
             </div>
           );
@@ -64,7 +64,7 @@ function Fleet() {
       </div>
 
       {/* the row */}
-      <div class="flex items-center xxs:justify-end justify-between px-5">
+      <div class="flex items-center justify-between px-5 xxs:justify-end">
         <h1 className={lastRow}>VIEW ENTIRE FLEET</h1>
         <RightArrow width={20} height={20} />
       </div>

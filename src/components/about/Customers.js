@@ -7,7 +7,7 @@ import { AboutUsURLs } from "@/util/urls";
 const Customers = () => {
   return (
     <>
-      <div className="bg-cover bg-center pb-7 text-center relative">
+      <div className="relative bg-cover bg-center pb-7 text-center">
         <Image
           src={AboutUsURLs.background}
           blurDataURL={AboutUsURLs.backgroundBLur}
@@ -41,11 +41,11 @@ const Customers = () => {
               </linearGradient>
             </defs>
           </svg>
-          <p className="font-librebaskerville 425:text-[18px] 768:text-[25px] 1024:text-[30px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-[15px] font-[300] italic leading-normal text-white 2xl:text-[54px]">
+          <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform font-librebaskerville text-[15px] font-[300] italic leading-normal text-white 425:text-[18px] 768:text-[25px] 1024:text-[30px] 2xl:text-[54px]">
             Our prized customer base
           </p>
         </div>
-        <div className="relative 1440:gap-8 grid grid-cols-1 gap-6 p-6 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 2xl:gap-11 2xl:p-9">
+        <div className="relative grid grid-cols-1 gap-6 p-6 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 1440:gap-8 2xl:gap-11 2xl:p-9">
           {AboutUSCustomertexts.map((text, index) => (
             <Text key={index} text={text} />
           ))}

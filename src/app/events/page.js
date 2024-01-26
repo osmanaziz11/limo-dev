@@ -15,7 +15,7 @@ function HeadingRow() {
   const heading = `text-4xl uppercase text-white sm:text-6xl md:text-7xl ${leagueSpartan700}`;
   const para = `text-[15px] text-white sm:mt-2 sm:text-[27px] md:text-[29px] ${libre400}`;
   return (
-    <div class=" top-0 flex sm:h-[400px] h-[250px] w-full flex-col items-center sm:justify-center justify-end sm:mb-0 mb-10  md:justify-start md:pt-56">
+    <div class=" top-0 mb-10 flex h-[250px] w-full flex-col items-center justify-end sm:mb-0 sm:h-[400px] sm:justify-center  md:justify-start md:pt-56">
       <h1 className={heading}>the latest</h1>
       <p className={para}>Masterpiece Limousines in action.</p>
     </div>
@@ -161,7 +161,7 @@ function Events() {
       <img
         src="https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700968369/f768d297837638be1b32d563fd928951_k8f1af.webp"
         alt="events-banner"
-        className="absolute top-0 left-0 w-full -z-10 bg-gradient-to-bottom h-full object-cover blur-sm from-black via-transparent to-transparent"
+        className="bg-gradient-to-bottom absolute left-0 top-0 -z-10 h-full w-full from-black via-transparent to-transparent object-cover blur-sm"
       />
       <HeadingRow />
 

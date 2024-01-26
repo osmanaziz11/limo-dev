@@ -12,7 +12,6 @@ function CustomerBase() {
 
   const primaryHeading = `text-center xxlg:text-[60px] text-[40px] xs:px-10 text-white ${LibreBaskerville}`;
   const secondaryHeading = `mx-2 text-lg uppercase tracking-[10px] text-[#a9a8a7] ${Montserrat}`;
-  
 
   return (
     <div>
@@ -20,15 +19,16 @@ function CustomerBase() {
         <h1 className={primaryHeading}>Our prized customer base</h1>
       </div>
 
-      <div className="p-5 px-10 sm:px-14 lg:px-80 xxlg:customer-base-xxlg xs:customer-base customer-base-xxs" >
+      <div className="xxlg:customer-base-xxlg xs:customer-base customer-base-xxs p-5 px-10 sm:px-14 lg:px-80">
         {clients.map((_, idx) => {
           return (
             <img
               key={idx}
               src={images[`Logo${idx + 1}`]}
               alt=""
-              className="xxlg:h-auto h-[120px]"
-              data-aos="zoom-in"/>
+              className="h-[120px] xxlg:h-auto"
+              data-aos="zoom-in"
+            />
           );
         })}
       </div>

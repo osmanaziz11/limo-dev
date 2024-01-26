@@ -12,7 +12,7 @@ function LatestNews() {
 
   const NavArrows = () => {
     return (
-      <div className="flex w-[46px] justify-center items-center">
+      <div className="flex w-[46px] items-center justify-center">
         <span className="rotate-180">
           <RightArrow width={23} height={25} />
         </span>
@@ -22,7 +22,7 @@ function LatestNews() {
   };
 
   return (
-    <div className="relative h-[700px] sm:px-14 px-3">
+    <div className="relative h-[700px] px-3 sm:px-14">
       <div className="flex justify-between lg:pr-52">
         <h1 className={primaryHeading}>Catch up on all the latest news</h1>
         <NavArrows />

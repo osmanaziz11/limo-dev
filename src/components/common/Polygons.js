@@ -3,7 +3,7 @@ import React from "react";
 function Polygon({ isActive = false, top }) {
   return (
     <div
-      className={`relative 3xxlg:h-[34px] xxlg:h-[24px]  2lg:h-[22px] smMd:h-[18px] sm:h-[14px]  xs:h-[11.5px] h-[10px] `}
+      className={`relative h-[10px] xs:h-[11.5px]  sm:h-[14px] smMd:h-[18px] 2lg:h-[22px]  xxlg:h-[24px] 3xxlg:h-[34px] `}
       style={{ top: `-${top}px` }}
     >
       <svg
