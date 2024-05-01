@@ -25,7 +25,7 @@ const Section = ({
   return (
     <>
       <div
-        className={`flex w-full justify-center bg-black 320:mt-10 768:mt-0 1024:h-[720px] 1440:h-[780px] 2xl:h-[980px] ${
+        className={`flex w-full justify-center bg-black 320:mt-10 768:mt-0 1024:my-10 1024:h-[720px] 1440:my-20 1440:h-[780px] 2xl:h-[980px] ${
           order === "right" ? "lg:flex-row" : "lg:flex-row-reverse"
         }`}
       >
@@ -44,7 +44,7 @@ const Section = ({
             <div className="grid items-center 320:grid-cols-1 768:grid-cols-1 1024:w-full 1024:grid-cols-2">
               <div className="flex lg:justify-start">
                 <h1
-                  className={`font-Leaguespartan mb-1 flex text-[70px] font-bold leading-[76.6%] 320:flex-row`}
+                  className={`font-Leaguespartan flex text-[70px] font-bold leading-[76.6%] 320:flex-row`}
                   data-aos={aos}
                 >
                   {`${number}`}
@@ -54,7 +54,7 @@ const Section = ({
 
             {/* heading */}
             <h1
-              className={`font-Archivo mb-1 font-[400] italic 320:text-[20px] 1024:w-full 1024:text-[35px]`}
+              className={`font-Archivo font-[400] italic 320:text-[20px] 1024:w-full 1024:text-[35px]`}
               data-aos={aos}
             >
               {`${heading}`}
@@ -67,11 +67,13 @@ const Section = ({
             >
               {textContent.map((text, index) => (
                 <React.Fragment key={index}>
-                  <p className="font-Archivo 320:mx-4 320:text-[12px] 320:leading-[17.8px] 768:mx-16 768:text-[13px] 1024:mx-0 1024:text-[14px] 1024:font-[300] 1024:leading-[16px] 1440:text-[16px] 1440:font-[300] 1440:leading-[18.8px] 2xl:text-[26px] 2xl:leading-[28.8px]">
+                  <p className="font-Archivo mt-2 320:mx-4 320:text-[12px] 320:leading-[17.8px] 768:mx-16 768:text-[13px] 1024:mx-0 1024:text-[13px] 1024:font-[300] 1024:leading-[14px] 1440:mt-3 1440:text-[16px] 1440:leading-[20px] 2xl:mt-4 2xl:text-[23px] 2xl:leading-[28px]">
                     {text}
                   </p>
-                  {index < textContent.length - 1 &&
-                    (number !== "17" ? <br /> : null)}
+                  {/* {index < textContent.length - 1 &&
+                    (number !== "17" ? (
+                      <br className="hidden 1440:block" />
+                    ) : null)} */}
                 </React.Fragment>
               ))}
             </div>
@@ -79,7 +81,7 @@ const Section = ({
 
           {/* second */}
           <div
-            className="relative order-2 w-full 320:mt-6 320:h-[860px] 320:p-4 sm:order-2 sm:w-[80%] 1024:h-[660px] 1024:w-[640px] 1024:p-0 1440:w-[700px] 2xl:h-[760px] 2xl:w-[800px]"
+            className="relative order-2 w-full 320:mt-6 320:h-[860px] 320:p-4 sm:order-2 sm:w-[80%] 1024:h-[650px] 1024:w-[800px] 1024:p-0 1440:h-[750px] 1440:w-[850px] 2xl:h-[850px] 2xl:w-[1000px]"
             data-aos="zoom-in"
           >
             <Image src={`${imgURL}`} blurDataURL={`${blurImg}`} layout="fill" />
@@ -87,7 +89,7 @@ const Section = ({
 
           {/* third */}
           <div
-            className={`bg-${color} order-3 flex w-[6%] flex-col items-center justify-center 320:hidden sm:flex 768:hidden 1024:flex 1024:h-[600px] 1024:w-[8%] 1440:h-[680px]
+            className={`bg-${color} order-3 flex w-[6%] flex-col items-center justify-center 320:hidden sm:flex 768:hidden 1024:flex 1024:h-[600px] 1024:w-[9%] 1440:h-[680px]
           1440:w-[8%] 2xl:h-[700px]`}
           >
             {filledIcons.map((index) => (
