@@ -394,7 +394,7 @@ export const ServicesSectionsData = [
       "Contact Masterpiece Limousine today to book our school event or prom limo services and give your child the celebrity treatment they deserve.",
     ],
     imgURL:
-      "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849701/services/17_xzeos9.png",
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562400/services/school-event-18_vnwqvy.jpg",
     blurImg:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849701/services/17_xzeos9.png",
     SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
