@@ -3,11 +3,11 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import * as fonts from "@/util/fonts";
 import { usePathname } from "next/navigation";
 import { Rotate as Hamburger } from "hamburger-react";
 import { NavURLs } from "@/util/urls";
-import Image from "next/legacy/image";
+import Reservation from "./Reservation";
+import * as fonts from "@/util/fonts";
 
 const NavLink = ({ name, href, horizontal, handler }) => {
   const activeRoute = usePathname();
@@ -91,13 +91,9 @@ export default function Navbar() {
       <div className="flex w-auto justify-end lg:w-[70%] xxlg:w-[75%]">
         <NavLinks />
       </div>
-      <div className="">
-        <button
-          className={`hidden bg-crimson px-4 py-[15px] text-xs uppercase  text-white lg:block xxlg:px-8 xxlg:py-[20px] xxlg:text-base ${fonts.montserrat600}`}
-        >
-          <Link href="/reservation"> Reservations</Link>
-        </button>
-      </div>
+
+      <Reservation />
+
       <div className="absolute right-0 z-50 block outline-none lg:hidden">
         <Hamburger
           id="hamburger"
