@@ -67,7 +67,7 @@ const Section = ({
             >
               {textContent.map((text, index) => (
                 <React.Fragment key={index}>
-                  <p className="font-Archivo mt-2 320:mx-4 320:text-[12px] 320:leading-[17.8px] 768:mx-16 768:text-[13px] 1024:mx-0 1024:text-[13px] 1024:font-[300] 1024:leading-[14px] 1440:mt-3 1440:text-[16px] 1440:leading-[20px] 2xl:mt-4 2xl:text-[23px] 2xl:leading-[28px]">
+                  <p className="font-Archivo mt-2 320:mx-4 320:text-[12px] 320:leading-[17.8px] 768:mx-16 768:text-[13px] 1024:mx-0 1024:text-[14px] 1024:font-[300] 1024:leading-[17px] 1440:mt-3 1440:text-[16px] 1440:leading-[20px] 2xl:mt-4 2xl:text-[23px] 2xl:leading-[28px]">
                     {text}
                   </p>
                   {/* {index < textContent.length - 1 &&
