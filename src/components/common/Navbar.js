@@ -94,7 +94,7 @@ export default function Navbar() {
         <NavLinks />
       </div>
 
-      <Reservation />
+      <Reservation title={"Reservations"} />
 
       <div className="absolute right-0 z-50 block outline-none lg:hidden">
         <Hamburger
