@@ -584,12 +584,12 @@ export const AboutUSTextOnImage = [
 ];
 
 export const NavigateListItems = [
-  "Home",
-  "About us",
-  "Specials",
-  "Fleet",
-  "Services",
-  "Reservations",
+  { name: "Home", href: "/" },
+  { name: "About us", href: "/about" },
+  { name: "Specials", href: "/specials" },
+  { name: "Fleet", href: "/fleet" },
+  { name: "Services", href: "/services" },
+  { name: "Reservations", href: "/reservations" },
 ];
 
 export const FleetListItems = [
