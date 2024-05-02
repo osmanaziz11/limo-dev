@@ -18,14 +18,14 @@ export const ServiceContent = {
     icon: "Casinos",
     para: "Do you need to break free from the everyday grind even for just one night? Then make a date in San Diego...",
   },
-  tours: {
-    title: "Water Tours",
-    icon: "AirportTransfer",
+  winetours: {
+    title: "Wine Tours",
+    icon: "Glass",
     para: "Sit back, relax and let Masterpiece Limousine San Diego do the driving while you have a great day tasting great vintages on our Temecula Wine Tour.",
   },
   tours: {
-    title: "Buss Tours",
-    icon: "AirportTransfer",
+    title: "BREWERY TOURS",
+    icon: "AnotherGlass",
     para: "There are many great things about San Diego, and high on the list is the vast number of local specialist breweries.",
   },
   weddings: {
@@ -63,7 +63,6 @@ export const servicesBannerData = [
 
 export const ServicesSectionsData = [
   {
-    aos: "zoom-in",
     number: "01",
     heading: "Gold Key Concierge",
     order: "right",
@@ -83,7 +82,6 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos: "zoom-in",
     number: "02",
     heading: "Airport Transfers",
     order: "left",
@@ -104,7 +102,6 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos: "zoom-in",
     number: "03",
     heading: "Executive Ground Transportation",
     order: "right",
@@ -124,7 +121,6 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos: "zoom-in",
     number: "04",
     heading: "Tijuana/CBX Airport Services",
     order: "left",
@@ -145,21 +141,260 @@ export const ServicesSectionsData = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
   },
   {
-    aos: "zoom-in",
-    number: "17",
-    heading: "Gold Key Concierge",
+    number: "05",
+    heading: "Temecula Wine Tours",
     order: "right",
     color: "[#A72211]",
     filled: 5,
     textContent: [
-      " Are you looking to make your child's school event unforgettable? Look no further than Masterpiece Limousine's safe and reliable school event limo services. Our experienced and professional chauffeurs will pick your child up from home and take them to their school event in style, ensuring a safe and enjoyable journey. Our luxury limousines are equipped with all the amenities to make the ride even more enjoyable, with options like stretch limousines, Hummer limos, and party buses. And with the option to bring friends along in our spacious H2 Hummer Limo, which can hold up to 40 passengers, the party can start right in the car. At Masterpiece Limousine, we understand the importance of privacy and security for children, which is why our limousines have tinted windows and separate driver's compartments. Our chauffeurs are also trained in handling paparazzi and security threats on the road and are always available to assist through the intercom system.",
-      " Safety is our top priority, so you can trust that your child will be in good hands with us.We follow all local regulations and have a strict zero - tolerance policy for alcohol or drug use in our vehicles.Our chauffeurs are also trained in defensive driving techniques to ensure your child's safety on the road.",
-      "If you need to make last - minute adjustments to your schedule, our school event limo services in San Diego are flexible and can start at any time.And if the event ends earlier than expected, our limos are on standby to take your child home safely.",
+      "Masterpiece Limousine is dedicated to creating custom Temecula wine country experiences that cater to your unique tastes and preferences. As proud members of the Temecula Winegrowers Association (https://www.temeculawines.org/), we are thrilled to offer exclusive packages that promise a truly unforgettable wine-tasting adventure. Rely on us to handle your transportation in our luxurious Luxury Buses or Executive and Limo Sprinters while you sit back, savor, and fully immerse yourself in the captivating beauty and flavors of the Temecula wine region.",
+      "Whether you're a seasoned wine enthusiast or a curious beginner eager to explore new tastes, our Temecula wine tours are the perfect way to make the most of your day. With over 40 wineries to choose from, you can create a personalized itinerary that matches your desires. Our lavish limousines and skilled, friendly drivers ensure a comfortable, sophisticated, and safe experience throughout your journey.",
+      "Don't miss the opportunity to plan your remarkable Temecula wine tour with Masterpiece Limousine. Contact us today and let us help you craft an unforgettable wine-tasting experience tailored just for you.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562404/services/wine-5_dmzfmj.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849696/services/03_iahqrb.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "06",
+    heading: "Wedding Limousine Transportation",
+    order: "left",
+    color: "[#2189B7]",
+    filled: 6,
+    textContent: [
+      " Masterpiece Limousine's professional team ensures that the Bride and Groom arrive in style on their special day. We offer a diverse fleet of luxury vehicles to suit your specific needs, including high-end luxury buses, Executive Sprinters, and Sprinter Limos. Our trained chauffeurs provide a pampering and respectful experience, ensuring that you and your loved ones can create lasting memories on your big day.",
+      "We understand that your wedding day is one of the most important days of your life, which is why we go above and beyond to provide exceptional service. In addition to transportation for the wedding itself, we also offer limousine rentals for the wedding reception, rehearsal, and church wedding. Our superb vehicles and superior service offer much more than just average wedding transportation.",
+      "Choose Masterpiece Limousine's Wedding Limousine Service for the best experience and value. Contact us today to request further details and let us help you make your special day even more memorable.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562403/services/wedding-6_jpw2lb.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700849696/services/04_iaoqht.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "07",
+    heading: "San Diego Brewery Tours",
+    order: "right",
+    color: "[#A72211]",
+    filled: 7,
+    textContent: [
+      "Discover San Diego's over 70 craft breweries with a unique and memorable brewery tour experience provided by Masterpiece Limousine. We offer a range of luxury vehicles, including high-end luxury buses, Executive Sprinters, and Sprinter Limos, to transport you and your friends safely and comfortably to and from the breweries, without worrying about designated drivers. Our team of experts can assist in planning and personalizing your tour to make it an unforgettable experience, drawing on our local and brewery knowledge.",
+      `San Diego is quickly becoming known as the "Craft Brewery Capital" of the US, boasting local favorites like Ballast Point, AleSmith Brewing Company, Societe Brewing Company, and Mike Hess Brewing Company. As a premier limousine company in San Diego, we provide exceptional and luxury transportation to make your brewery tour an experience to remember. Explore the complete list of breweries by clicking here and start planning your trip today.`,
+      "Let Masterpiece Limousine take care of the driving, so you can sit back and enjoy the ride. With our comfortable and luxury transportation, there's no better way to spend the day than touring San Diego's fantastic craft breweries. So, pick out your favorite breweries and a date, and we'll be ready to assist you in every way possible. Contact us today to book your brewery tour and experience the best in luxury transportation.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714563808/services/7_ijue3w.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849696/services/03_iahqrb.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "08",
+    heading: "Concert Limo Services",
+    order: "left",
+    color: "[#2189B7]",
+    filled: 8,
+    textContent: [
+      "Looking to make a grand entrance at your next concert in San Diego, Los Angeles, or the surrounding areas? Look no further than Masterpiece Limousine's concert limo service. Our fleet includes high-end luxury buses, Executive Sprinters, and Sprinter Limos, as well as stretched limousines and Hummer limos that can accommodate you and your friends, allowing the party to start as soon as the limo picks you up. You can even tailgate before the show begins, creating an unforgettable experience before the music even starts.",
+      "After the concert, skip the hassle of navigating a crowded parking lot or finding a designated driver. Our professional chauffeurs will provide a comfortable and stress-free ride home, ensuring the evening ends on a high note. With excellent rates and bargain deals for weekday concerts, our concert limo service is an affordable and memorable experience.",
+      "Contact Masterpiece Limousine today and leave the driving to us. Our team is dedicated to providing top-notch service and will be happy to assist in any way we can. Ask about our unique San Diego concert services and party bus limo rental options. Click here to learn more and start planning your concert transportation in luxury and style today.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562392/services/concert-limo-8_qyyie8.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700849696/services/04_iaoqht.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "09",
+    heading: "Mexico Limousine Tours",
+    order: "right",
+    color: "[#A72211]",
+    filled: 9,
+    textContent: [
+      "Embark on an unforgettable journey and experience the beauty and culture of Mexico with Masterpiece Limousine's Mexico Tours. Our luxury fleet, including luxury buses, Executive Sprinters, and Sprinter Limos, allows you to sit back and relax while we take care of the driving. With a variety of tour options available, you can focus on exploring, wine tasting, shopping, eating, and swimming in style and comfort. Our San Diego limousine service offers the best Baja Mexico Tours, including Puerto Nuevo lobster luncheons, shopping in Tijuana, wine tasting in the Guadalupe Valley, and airport transfers.",
+      "At Masterpiece Limousine, we prioritize your security and safety during our Mexico Limousine Tours. Our professional drivers are well-versed with Mexican Laws and regulations, ensuring a hassle-free and secure travel experience. Our luxury limousines provide a comfortable and stylish way to travel along the golden coast of Mexico. Whether you are interested in sampling local cuisine, shopping for souvenirs, or enjoying the scenery, we have everything you need for an elegant and leisurely tour. Our team is dedicated to providing top-notch service and will be happy to assist in any way we can.",
+      "Mexico is a country with a rich and diverse culture, and our Mexico Limousine Tours provide an opportunity to immerse yourself in that culture and explore all that it has to offer. From the vibrant and bustling cities to the peaceful and serene countryside, there is something for everyone in Mexico. Whether you are a seasoned traveler or just starting to discover the world, our Mexico Limousine Tours are an excellent way to experience the beauty and wonder of this amazing country. Contact us today to start planning your tour and experience Mexico like never before with Masterpiece Limousine.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562396/services/mexico-9_jwlbgh.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849696/services/03_iahqrb.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "10",
+    heading: "Bachelor & Bachelorette Parties",
+    order: "left",
+    color: "[#2189B7]",
+    filled: 10,
+    textContent: [
+      "Experience an unforgettable night out with Masterpiece Limousine's professional transportation services for bachelor and bachelorette parties in San Diego. Our drivers are well-versed with the area and can help plan your evening, providing recommendations for clubs, restaurants, and other entertainment options. With a fleet of luxury vehicles, including luxury buses, Executive Sprinters, and Sprinter Limos, sit back and relax as you let the party begin.",
+      "San Diego offers endless possibilities for a great night out, starting downtown or in one of the surrounding beach areas, such as La Jolla or Coronado. Visit some of the hottest nightclubs and dance venues, including the Belly Up Tavern, Side Bar, Oxford Social Club, Fluxx, Bang Bang, and PARQ. For an earlier start to the party, consider booking a brewery or wine tour limo service with Masterpiece Limousine, offering the opportunity to sample local craft beers or wines while enjoying the stunning scenery of San Diego.",
+      "Indulge in some pampering before your evening event at one of the local day spas, offering a range of relaxation and beauty treatments to help prepare for the big night out. And when it's time to head out, our luxury limousines will be waiting to take you wherever you desire. Choose from various vehicles, including sedans, SUVs, Hummer, and party buses, to accommodate your group size and preferences.",
+      "As a premiere limousine company in San Diego, Masterpiece Limousine provides top-notch service for bachelor and bachelorette parties. There's no better way to kick-start you’re evening than with a ride in one of our luxury vehicles. So, contact us today to start planning your transportation and create unforgettable memories with your friends.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562391/services/bachelor-10_dl10rk.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700849696/services/04_iaoqht.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "11",
+    heading: "SoCal Casino Limo Services",
+    order: "right",
+    color: "[#A72211]",
+    filled: 11,
+    textContent: [
+      "Experience the ultimate luxury and convenience with Masterpiece Limousine's professional casino limo services in San Diego. Our luxury fleet, including luxury buses, Executive Sprinters, and Sprinter Limos, provide a comfortable and stylish way to travel to top gaming rooms like Sycuan Casino, Pechanga Resort and Casino, Pala Casino Spa & Resort, Viejas Casino, Barona Casino, Jamul Casino, and many more. Sit back, relax, and enjoy the party all night without worrying about driving or finding parking spaces.",
+      "Our experienced chauffeurs are familiar with San Diego County and can provide recommendations for restaurants, bars, and other activities. They can also surprise you with new and hidden gems based on their judgment. Let us help you plan your trip and maximize your time at the casino. We can assist with everything from coordinating transportation to and from the casino to helping you plan your itinerary for the day.",
+      "In addition to providing transportation to the casinos, we offer a range of options for traveling to other popular destinations in the San Diego area. From brewery and wine tours to concerts and other events, we can provide the transportation you need to make the most of your time in San Diego. Our fleet of luxury vehicles, including luxury sedans, H2 Hummer limousines, and sprinter buses that seat up to 40 passengers, can accommodate your group size and preferences.",
+      "As a premiere limousine company in San Diego, we are dedicated to providing top-notch service for casino limo services. So contact us today to start planning your transportation and make your trip to the casinos memorable. With Masterpiece Limousine, let us take care of the driving, so you can focus on the fun.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562392/services/casino-11_v9ekfz.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849696/services/03_iahqrb.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "12",
+    heading: "Del Mar Races Limousine Service",
+    order: "left",
+    color: "[#2189B7]",
+    filled: 12,
+    textContent: [
+      "Elevate your Del Mar Races experience with the premier luxury transportation services of Masterpiece Limousine. Our extensive fleet includes luxury sedans, stretched Hummer limos, spacious Sprinters, and luxury buses accommodating up to 40 passengers. With our professional and experienced chauffeurs at the helm, you can arrive at the races in style, luxury, and comfort.",
+      "Our knowledgeable chauffeurs are well-acquainted with San Diego and can help you plan your day, recommending restaurants, clubs, and other activities. We offer a variety of transportation options, including Luxury Sedan Limos, Stretched Hummer Limos, and Sprinter Bus Rentals that cater to your group size and preferences. Our highly trained chauffeurs are committed to ensuring a safe and stress-free trip that is tailored to your needs.",
+      "At Masterpiece Limousine, we strive to provide personalized services to all our clients. We can collaborate with you to create a customized experience, such as arranging a cruise or visiting one of San Diego's exquisite restaurants or clubs. As a fully licensed and certified limo company in San Diego, we take pride in delivering exceptional service and a memorable experience to our clients.",
+      "Indulge in luxury and sophistication on your trip to the Del Mar Races. Contact Masterpiece Limousine today to book your Del Mar Races Limo Service and experience the pinnacle of comfort and elegance.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562392/services/del-mar-12_laqedv.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700849696/services/04_iaoqht.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "13",
+    heading: "Graduation Limo Services",
+    order: "right",
+    color: "[#A72211]",
+    filled: 13,
+    textContent: [
+      "Congratulations on your graduation! At Masterpiece Limousine, we understand the importance of this milestone and want to help you celebrate in style while ensuring safety and reliability.",
+      "Our Graduation Limo Service offers a fleet of luxurious vehicles, including sedans, SUVs, stretch limousines, Executive Sprinters, and Sprinter Limos. Whether you have a small group or a large party, we have the perfect transportation to suit your needs.",
+      "Our professional and experienced chauffeurs prioritize safety and are well-versed in the San Diego area. They can help you plan your day, including suggesting the best restaurants and fun activities to do around town. With our reliable transportation services, you can rest assured that you will arrive at your destination on time and in style.",
+      "In addition to providing transportation for your graduation party, our service can also take care of your transportation needs for the graduation ceremony. We will pick you up from your home or hotel and transport you to the venue, ensuring that you arrive on time and stress-free. After the ceremony, we will be there to take you home or to your next destination.",
+      "Let Masterpiece Limousine make your graduation day a memorable one with our reliable and luxurious transportation services. Contact us today to book your graduation party transportation.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562393/services/graduation-13_yaui8d.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849696/services/03_iahqrb.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "14",
+    heading: "Sporting Event Transportation",
+    order: "left",
+    color: "[#2189B7]",
+    filled: 14,
+    textContent: [
+      "Elevate your sporting event experience with Masterpiece Limousine's Sporting Events Limousine Service. Whether you're headed to a San Diego Padres game or a college sports event, our luxury fleet includes sedans, SUVs, stretch limousines, Executive Sprinters, Sprinter Limos, and even party buses that can accommodate up to 40 passengers, providing a comfortable and memorable ride to and from the game.",
+      "Our experienced chauffeurs can help plan the perfect pre-game tailgate party, complete with refreshments and entertainment, to kick off your day in style. And when the game ends, we can take you to celebrate at one of the many bars or restaurants near the stadium.",
+      "Our Sporting Events Limousine Service isn't limited to baseball games. We also offer transportation for football, basketball, soccer, and any other sporting event in the area. Whether you're cheering on the Chargers, Rams, Aztecs, or even the Raiders in Vegas, we've got you covered.",
+      "At Masterpiece Limousine, safety and reliability are our top priorities. Our drivers are professionally trained and have extensive experience navigating the San Diego area, ensuring a stress-free and comfortable ride.",
+      "Don't settle for sitting in traffic and dealing with parking when you could be enjoying the game in luxury and style. Contact us today to book your Sporting Events Limousine Service and elevate your sporting event experience.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562401/services/sporting-14_mex7sp.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700849696/services/04_iaoqht.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "15",
+    heading: "Quinceañera Limousine Service",
+    order: "right",
+    color: "[#2189B7]",
+    filled: 15,
+    textContent: [
+      "Celebrate your Quinceañera in style and luxury with Masterpiece Limousine's Quinceañera limo service in San Diego. Our extensive fleet includes luxury sedans, stretched Hummer limos, spacious Sprinters, Executive Sprinters, and luxury buses accommodating up to 40 passengers.",
+      "We prioritize style, space, and safety to ensure your Quinceañera is an unforgettable and enjoyable experience. Our experienced and professional chauffeurs are trained in defensive driving techniques, and we follow all local regulations to ensure your safety. Our vehicles are equipped with top-of-the-line amenities, including tinted windows for privacy, to make your ride comfortable and enjoyable.",
+      "Our Quinceañera limo service in San Diego is available for all venues in San Diego County, including popular locations such as Hilton San Diego Mission Valley Hotel, The San Diego County Swiss Park, and Twin Oaks Golf Course. To ensure availability during the spring and summer months, booking your Quinceañera limo rental in San Diego well in advance is essential.",
+      "We understand the importance of the perfect Quinceañera dress, which is why we've compiled a list of boutiques and stores in San Diego where you can find the ideal gown. And if you're looking for special deals and offers, sign up for our specials to be the first to know about any Quinceañera or Hummer Limousine specials available.",
+      "At Masterpiece Limousine, we strive to make the woman of the day feel special by arriving in style and ensuring that her night is unforgettable. Trust us to make your Quinceañera one of the best days of your life. Contact us today to choose the best limo rental for your party and experience the luxury and elegance of our Quinceañera limo service in San Diego.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562397/services/prom-15_ka5zft.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700849696/services/04_iaoqht.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "16",
+    heading: "Nightclub Limo Service",
+    order: "left",
+    color: "[#A72211]",
+    filled: 16,
+    textContent: [
+      "At Masterpiece Limousine, we offer reliable and safe nightclub limo services, designed to make your night out both luxurious and convenient. Our professional drivers are knowledgeable about the area and can help plan your night out, including recommending the best clubs and bars to visit. Plus, with our exclusive deals, you can enjoy free entry to some of the hottest spots in town.",
+      "Driving and finding parking can be a hassle, but with our nightclub limo services, you can sit back, relax, and enjoy the ride in one of our luxury vehicles. Our fleet includes a variety of options, from sedans and SUVs to Hummer limos, Executive Sprinters, and Sprinter Limos, and luxury buses accommodating up to 40 passengers, all equipped with the latest amenities to ensure your comfort and enjoyment.",
+      "We prioritize safety and reliability, so you can trust that our experienced drivers will get you to your destination safely and efficiently. Our vehicles are regularly maintained and inspected to ensure optimal performance, and our drivers are trained in defensive driving techniques.",
+      "Whether you're heading to a nightclub or a bar, our nightclub limo services in San Diego will get you there in style and comfort. Don't worry about driving or finding parking; let us take care of the transportation while you enjoy your night out. Contact Masterpiece Limousine today to book your ride and make your night out one to remember.",
+    ],
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562397/services/Nightclub-17_pegfp3.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849701/services/17_xzeos9.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "17",
+    heading: "School Even Limo Services",
+    order: "right",
+    color: "[#A72211]",
+    filled: 17,
+    textContent: [
+      "Are you looking to make your child's school event unforgettable? Look no further than Masterpiece Limousine's safe and reliable school event limo services. Our experienced and professional chauffeurs will pick your child up from home and take them to their school event in style, ensuring a safe and enjoyable journey.",
+      "Our luxury limousines are equipped with all the amenities to make the ride even more enjoyable, with options like stretch limousines, Hummer limos, and party buses. And with the option to bring friends along in our spacious H2 Hummer Limo, which can hold up to 40 passengers, the party can start right in the car.",
+      "At Masterpiece Limousine, we understand the importance of privacy and security for children, which is why our limousines have tinted windows and separate driver's compartments. Our chauffeurs are also trained in handling paparazzi and security threats on the road and are always available to assist through the intercom system.",
+      "Safety is our top priority, so you can trust that your child will be in good hands with us. We follow all local regulations and have a strict zero-tolerance policy for alcohol or drug use in our vehicles. Our chauffeurs are also trained in defensive driving techniques to ensure your child's safety on the road.",
+      "If you need to make last-minute adjustments to your schedule, our school event limo services in San Diego are flexible and can start at any time. And if the event ends earlier than expected, our limos are on standby to take your child home safely.",
       "And if you're looking for transportation for prom night, Masterpiece Limousine has got you covered with our luxury prom limousine service. We offer a wide range of luxury vehicles, including Executive Sprinters and Sprinter Limos, equipped with top-of-the-line amenities to make your prom night special. Our experienced and professional chauffeurs will ensure your prom night is safe, fun, and stress-free.",
       "Contact Masterpiece Limousine today to book our school event or prom limo services and give your child the celebrity treatment they deserve.",
     ],
     imgURL:
-      "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849701/services/17_xzeos9.png",
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562400/services/school-event-18_vnwqvy.jpg",
     blurImg:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849701/services/17_xzeos9.png",
     SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
@@ -349,12 +584,12 @@ export const AboutUSTextOnImage = [
 ];
 
 export const NavigateListItems = [
-  "Home",
-  "About us",
-  "Specials",
-  "Fleet",
-  "Services",
-  "Reservations",
+  { name: "Home", href: "/" },
+  { name: "About us", href: "/about" },
+  { name: "Specials", href: "/specials" },
+  { name: "Fleet", href: "/fleet" },
+  { name: "Services", href: "/services" },
+  { name: "Reservations", href: "/reservations" },
 ];
 
 export const FleetListItems = [

@@ -10,7 +10,7 @@ import { archivo300, leagueSpartan700, montserrat400 } from "@/util/fonts";
 
 function Services() {
   const Montserrat = montserrat400;
-  const para = `w-auto slg:text-start text-center 3xxlg:text-[20px] 2xxlg:text-[18px] xxlg:text-base text-sm leading-[1.1] text-[#e7e2e2] relative slg:-top-4 sm:w-[90%] md:w-1/2 slg:pe-[130px] ${archivo300}`;
+  const para = `w-auto slg:text-start text-center 3xxlg:text-[20px] 2xxlg:text-[18px] xxlg:text-base text-sm leading-[1.1] text-[#FFFFFF] relative slg:-top-4 sm:w-[90%] md:w-1/2 slg:pe-[130px] ${archivo300}`;
 
   const heading = `text-[40px] slg:text-start w-[100%] text-center text-white sm:text-[60px] uppercase  xl:text-[80px] 3xxlg:text-[130px] 2xxlg:text-[100px] xxlg:text-[90px] ${leagueSpartan700}`;
 
@@ -21,12 +21,15 @@ function Services() {
         layout="fill"
         objectFit="cover"
         alt="Services"
-        className="-z-10 xs:blur-0 blur-sm"
+        className="-z-10 blur-sm xs:blur-0"
         blurDataURL={homeURL.serviceMainBannerBlur}
       />
 
       {/* content  */}
-      <div class="absolute left-0 top-0  flex flex-col items-center justify-center px-5 py-10 xs:p-10 xs:px-20 slg:items-start" data-aos="fade-right">
+      <div
+        class="absolute left-0 top-0  flex flex-col items-center justify-center px-5 py-10 xs:p-10 xs:px-20 slg:items-start"
+        data-aos="fade-right"
+      >
         <h1 className={heading}>Our Services</h1>
         <p className={para}>
           Masterpiece Limousine provides luxury, affordable limo services in San
@@ -36,7 +39,7 @@ function Services() {
         </p>
       </div>
 
-      <div className="absolute  hidden h-full w-full items-center justify-end pe-20 slg:flex">
+      <div className="absolute hidden h-full w-full items-center justify-end pe-20 slg:flex">
         <div className="mt-20">
           <ServiceCardWeb {...ServiceContent.graduation} />
         </div>
@@ -46,7 +49,7 @@ function Services() {
           <ServiceCardWeb {...ServiceContent.casinos} />
         </div>
         <div className=" mb-20 flex flex-col">
-          <ServiceCardWeb {...ServiceContent.tours} />
+          <ServiceCardWeb {...ServiceContent.winetours} />
           <ServiceCardWeb {...ServiceContent.tours} />
         </div>
         <div className=" mx-3 flex flex-col">
@@ -58,11 +61,11 @@ function Services() {
 
       {/* mobile version content  */}
       <div class="abolute left-0 top-0 z-50 flex h-full w-full justify-center slg:hidden">
-        <div class="absolute smMd:bottom-32 sm:bottom-24 xs:bottom-36 bottom-28 grid w-[100%] gap-0  xxs:grid-cols-2  sm:grid-cols-3 slg:bottom-10 smMd:grid-cols-4 xxs:px-0 px-6">
+        <div class="absolute bottom-28 grid w-[100%] gap-0 px-6 xxs:grid-cols-2 xxs:px-0  xs:bottom-36  sm:bottom-24 sm:grid-cols-3 smMd:bottom-32 smMd:grid-cols-4 slg:bottom-10">
           <ServiceCardMobile {...ServiceContent.graduation} />
           <ServiceCardMobile {...ServiceContent.airportTransfer} />
           <ServiceCardMobile {...ServiceContent.casinos} />
-          <ServiceCardMobile {...ServiceContent.tours} />
+          <ServiceCardMobile {...ServiceContent.winetours} />
           <ServiceCardMobile {...ServiceContent.tours} />
           <ServiceCardMobile {...ServiceContent.airportTransfer} />
           <ServiceCardMobile {...ServiceContent.weddings} />
@@ -71,11 +74,11 @@ function Services() {
       </div>
 
       {/* last row  */}
-      <div className="flex w-full absolute 2xxlg:bottom-20 xl:bottom-5 bottom-10 items-center justify-end sm:px-20 px-5">
+      <div className="absolute bottom-10 flex w-full items-center justify-end px-5 sm:px-20 xl:bottom-5 2xxlg:bottom-20">
         <h1
-          class={`mx-2 sm:text-lg text-sm uppercase tracking-[10px] text-[#a9a8a7] ${Montserrat}`}
+          class={`mx-2 text-sm uppercase tracking-[10px] text-[#a9a8a7] sm:text-lg ${Montserrat}`}
         >
-          VIEW ALL SERVICES
+          <a href="">VIEW ALL SERVICES</a>
         </h1>
         <RightArrow width={24} height={24} />
       </div>

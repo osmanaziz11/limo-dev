@@ -150,7 +150,7 @@ function HomeContact() {
             ></textarea>
           </div>
           <button
-            className={`bg-[#2189B7] p-2 uppercase text-white lg:p-3   xxlg:p-5 xxlg:text-lg ${Montserrat400}`}
+            className={`bg-[#2189B7] p-2 uppercase text-white lg:p-3 xxlg:p-5 xxlg:text-lg ${Montserrat400}`}
           >
             SEND
           </button>
