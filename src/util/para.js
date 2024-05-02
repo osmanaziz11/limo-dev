@@ -25,7 +25,7 @@ export const ServiceContent = {
   },
   tours: {
     title: "BREWERY TOURS",
-    icon: "Tours",
+    icon: "AnotherGlass",
     para: "There are many great things about San Diego, and high on the list is the vast number of local specialist breweries.",
   },
   weddings: {
