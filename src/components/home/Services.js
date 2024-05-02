@@ -10,7 +10,7 @@ import { archivo300, leagueSpartan700, montserrat400 } from "@/util/fonts";
 
 function Services() {
   const Montserrat = montserrat400;
-  const para = `w-auto slg:text-start text-center 3xxlg:text-[20px] 2xxlg:text-[18px] xxlg:text-base text-sm leading-[1.1] text-[#e7e2e2] relative slg:-top-4 sm:w-[90%] md:w-1/2 slg:pe-[130px] ${archivo300}`;
+  const para = `w-auto slg:text-start text-center 3xxlg:text-[20px] 2xxlg:text-[18px] xxlg:text-base text-sm leading-[1.1] text-[#FFFFFF] relative slg:-top-4 sm:w-[90%] md:w-1/2 slg:pe-[130px] ${archivo300}`;
 
   const heading = `text-[40px] slg:text-start w-[100%] text-center text-white sm:text-[60px] uppercase  xl:text-[80px] 3xxlg:text-[130px] 2xxlg:text-[100px] xxlg:text-[90px] ${leagueSpartan700}`;
 
