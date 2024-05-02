@@ -18,14 +18,14 @@ export const ServiceContent = {
     icon: "Casinos",
     para: "Do you need to break free from the everyday grind even for just one night? Then make a date in San Diego...",
   },
-  tours: {
-    title: "Water Tours",
-    icon: "AirportTransfer",
+  winetours: {
+    title: "Wine Tours",
+    icon: "Glass",
     para: "Sit back, relax and let Masterpiece Limousine San Diego do the driving while you have a great day tasting great vintages on our Temecula Wine Tour.",
   },
   tours: {
-    title: "Buss Tours",
-    icon: "AirportTransfer",
+    title: "BREWERY TOURS",
+    icon: "Tours",
     para: "There are many great things about San Diego, and high on the list is the vast number of local specialist breweries.",
   },
   weddings: {

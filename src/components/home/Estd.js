@@ -29,7 +29,7 @@ function Estd() {
     { number: "900", text: "Happy Customers" },
     { number: "12", text: "LUXURY LIMOS" },
     { number: "900k", text: "MILES" },
-    { number: "30", text: "QUALIFIED HAUFFEURS" },
+    { number: "30", text: "QUALIFIED CHAUFFEURS" },
   ];
 
   return (

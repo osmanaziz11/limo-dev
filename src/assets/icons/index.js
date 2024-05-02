@@ -280,3 +280,5 @@ export const Tours = ({ color = "#bababa" }) => {
     </svg>
   );
 };
+
+

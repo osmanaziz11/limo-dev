@@ -39,7 +39,7 @@ function Services() {
         </p>
       </div>
 
-      <div className="absolute  hidden h-full w-full items-center justify-end pe-20 slg:flex">
+      <div className="absolute hidden h-full w-full items-center justify-end pe-20 slg:flex">
         <div className="mt-20">
           <ServiceCardWeb {...ServiceContent.graduation} />
         </div>
@@ -49,7 +49,7 @@ function Services() {
           <ServiceCardWeb {...ServiceContent.casinos} />
         </div>
         <div className=" mb-20 flex flex-col">
-          <ServiceCardWeb {...ServiceContent.tours} />
+          <ServiceCardWeb {...ServiceContent.winetours} />
           <ServiceCardWeb {...ServiceContent.tours} />
         </div>
         <div className=" mx-3 flex flex-col">
@@ -65,7 +65,7 @@ function Services() {
           <ServiceCardMobile {...ServiceContent.graduation} />
           <ServiceCardMobile {...ServiceContent.airportTransfer} />
           <ServiceCardMobile {...ServiceContent.casinos} />
-          <ServiceCardMobile {...ServiceContent.tours} />
+          <ServiceCardMobile {...ServiceContent.winetours} />
           <ServiceCardMobile {...ServiceContent.tours} />
           <ServiceCardMobile {...ServiceContent.airportTransfer} />
           <ServiceCardMobile {...ServiceContent.weddings} />
@@ -78,7 +78,7 @@ function Services() {
         <h1
           class={`mx-2 text-sm uppercase tracking-[10px] text-[#a9a8a7] sm:text-lg ${Montserrat}`}
         >
-          <a href="/services">VIEW ALL SERVICES</a>
+          <a href="">VIEW ALL SERVICES</a>
         </h1>
         <RightArrow width={24} height={24} />
       </div>
